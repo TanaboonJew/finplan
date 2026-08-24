@@ -5,17 +5,23 @@
     <title>FinPlan</title>
     <script>
       (function () {
+        var BASE = "/finplan";
         var path = window.location.pathname;
-        if (!/^\/(en|th)(\/|$)/.test(path)) {
-          var rest = path.replace(/^\/+/, "");
-          var target = "/en/" + (rest ? rest : "");
-          window.location.replace(target);
+        var rest = "";
+        if (path.indexOf(BASE) === 0) {
+          rest = path.slice(BASE.length);
+        }
+        if (!/^\/(en|th)(\/|$)/.test(rest)) {
+          rest = rest.replace(/^\/+/, "");
+          window.location.replace(
+            BASE + "/en/" + rest + window.location.search + window.location.hash
+          );
         }
       })();
     </script>
-    <meta http-equiv="refresh" content="0; url=/en/" />
+    <meta http-equiv="refresh" content="0; url=/finplan/en/" />
   </head>
   <body>
-    <p>Redirecting… <a href="/en/">Go to FinPlan</a></p>
+    <p>Redirecting… <a href="/finplan/en/">Go to FinPlan</a></p>
   </body>
 </html>

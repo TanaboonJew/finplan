@@ -33,7 +33,7 @@ A hub site (`/`) listing ~17 self-contained finance planning tools. Each tool ru
 | Charts | Recharts |
 | i18n | next-intl (`en`, `th`) |
 | Tests | Vitest (+ @testing-library/react where useful) |
-| Deploy | GitHub Pages — https://tanaboonjew.github.io/ (static export) |
+| Deploy | GitHub Pages — https://tanaboonjew.github.io/finplan/ (static export, basePath `/finplan`) |
 
 ## 4. Repository layout
 
