@@ -137,6 +137,89 @@
     "comingSoon": "This planner is on the roadmap — its full build ships in an upcoming phase.",
     "back": "Back to hub"
   },
+  "debt": {
+    "toolbar": {
+      "currency": "Currency",
+      "startMonth": "Plan starts",
+      "seedConfirm": "Replace your current debts with the demo set?",
+      "reset": "Reset",
+      "resetConfirm": "Clear all debts and settings?"
+    },
+    "stats": {
+      "totalBalance": "Total debt",
+      "totalBalanceSub": "Across {count, plural, one {# debt} other {# debts}}",
+      "monthlyMinimums": "Minimums per month",
+      "debtFreeBy": "Debt-free by",
+      "strategyPlan": "{strategy} plan · {months}",
+      "interestSaved": "Interest saved vs minimums-only",
+      "interestSavedSub": "Compared with paying minimums only"
+    },
+    "editor": {
+      "title": "Your debts",
+      "addTitle": "Add a debt",
+      "nameLabel": "Name",
+      "namePlaceholder": "e.g. Visa card",
+      "balanceLabel": "Balance",
+      "aprLabel": "APR",
+      "minimumLabel": "Minimum payment",
+      "add": "Add debt",
+      "edit": "Edit",
+      "save": "Save",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "deleteConfirm": "Delete \"{name}\"?",
+      "emptyTitle": "No debts yet",
+      "emptyBody": "Add your first debt or load demo data to see payoff plans side by side."
+    },
+    "validation": {
+      "nameRequired": "Give this debt a name.",
+      "nonNegative": "Enter a number of zero or more.",
+      "rateRange": "APR must be between 0 and 100 percent."
+    },
+    "strategies": {
+      "snowball": "Snowball",
+      "avalanche": "Avalanche",
+      "hybrid": "Hybrid",
+      "snowballHint": "Smallest balance first — quick wins keep you going.",
+      "avalancheHint": "Highest APR first — cheapest overall.",
+      "hybridHint": "High-APR debts first, then smallest balances.",
+      "monthsTotal": "{count, plural, one {# month} other {# months}}",
+      "totalInterest": "Total interest",
+      "paidOffBy": "Debt-free {date}",
+      "cheapest": "Cheapest",
+      "deltaVsCheapest": "+{amount} vs cheapest",
+      "selectHint": "Pick a plan to focus the schedule and chart below."
+    },
+    "chart": {
+      "title": "Remaining balance",
+      "description": "All three plans, month by month.",
+      "tooltipMonth": "Month {month}",
+      "legendBalance": "Balance"
+    },
+    "simulator": {
+      "title": "Extra-payment simulator",
+      "description": "Money added here goes straight at your priority debt.",
+      "label": "Extra per month",
+      "savedMonths": "{count, plural, one {# month sooner} other {# months sooner}}",
+      "savedInterest": "{amount} less interest",
+      "noSaving": "No change yet — raise the extra amount above zero."
+    },
+    "table": {
+      "title": "Monthly schedule",
+      "subtitle": "{strategy} plan starting {date}",
+      "colIndex": "#",
+      "colDate": "Date",
+      "colBalance": "Balance",
+      "colInterest": "Interest",
+      "colPrincipal": "Principal",
+      "clearedRow": "{name} cleared"
+    },
+    "error": {
+      "unsolvable": "These minimum payments cannot cover the accruing interest. Raise a minimum or add extra monthly payments.",
+      "generic": "The simulation could not complete with these inputs.",
+      "importVersion": "That file was exported by a different version of the debt planner."
+    }
+  },
   "shared": {
     "export": "Export JSON",
     "import": "Import JSON",

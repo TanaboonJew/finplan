@@ -1,12 +1,25 @@
-import { setRequestLocale } from "next-intl/server";
-import { ToolPlaceholder } from "@/components/hub/tool-placeholder";
+import type { Metadata } from "next";
+import { getTranslations, setRequestLocale } from "next-intl/server";
+import { DebtTool } from "@/components/tools/debt/debt-tool";
 
 type Props = {
   params: Promise<{ locale: string }>;
 };
 
+export async function generateMetadata({
+  params,
+}: Pick<Props, "params">): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "tools.debt" });
+
+  return {
+    title: t("title"),
+    description: t("description"),
+  };
+}
+
 export default async function DebtToolPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
-  return <ToolPlaceholder slug="debt" />;
+  return <DebtTool />;
 }

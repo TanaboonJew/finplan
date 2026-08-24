@@ -137,6 +137,89 @@
     "comingSoon": "เครื่องมือนี้อยู่ในแผนงาน จะถูกพัฒนาเต็มรูปแบบในเฟสถัดไป",
     "back": "กลับสู่หน้าหลัก"
   },
+  "debt": {
+    "toolbar": {
+      "currency": "สกุลเงิน",
+      "startMonth": "แผนเริ่มเดือน",
+      "seedConfirm": "แทนที่รายการหนี้ปัจจุบันของคุณด้วยชุดข้อมูลตัวอย่าง?",
+      "reset": "รีเซ็ต",
+      "resetConfirm": "ล้างหนี้และการตั้งค่าทั้งหมด?"
+    },
+    "stats": {
+      "totalBalance": "หนี้รวม",
+      "totalBalanceSub": "รวม {count} รายการ",
+      "monthlyMinimums": "ขั้นต่ำต่อเดือน",
+      "debtFreeBy": "ปลอดหนี้ภายใน",
+      "strategyPlan": "แผน {strategy} · {months}",
+      "interestSaved": "ดอกเบี้ยที่ประหยัดได้ เทียบกับจ่ายขั้นต่ำ",
+      "interestSavedSub": "เทียบกับการจ่ายขั้นต่ำอย่างเดียว"
+    },
+    "editor": {
+      "title": "หนี้ของคุณ",
+      "addTitle": "เพิ่มรายการหนี้",
+      "nameLabel": "ชื่อ",
+      "namePlaceholder": "เช่น บัตรเครดิตวีซ่า",
+      "balanceLabel": "ยอดคงเหลือ",
+      "aprLabel": "อัตราดอกเบี้ยต่อปี",
+      "minimumLabel": "ชำระขั้นต่ำ",
+      "add": "เพิ่มหนี้",
+      "edit": "แก้ไข",
+      "save": "บันทึก",
+      "cancel": "ยกเลิก",
+      "delete": "ลบ",
+      "deleteConfirm": "ลบ \"{name}\"?",
+      "emptyTitle": "ยังไม่มีรายการหนี้",
+      "emptyBody": "เพิ่มหนี้แรกของคุณ หรือโหลดข้อมูลตัวอย่างเพื่อเทียบแผนชำระหนี้แบบเห็นพร้อมกัน"
+    },
+    "validation": {
+      "nameRequired": "ตั้งชื่อหนี้รายการนี้ก่อน",
+      "nonNegative": "กรอกตัวเลขตั้งแต่ศูนย์ขึ้นไป",
+      "rateRange": "อัตราดอกเบี้ยต้องอยู่ระหว่าง 0 ถึง 100 เปอร์เซ็นต์"
+    },
+    "strategies": {
+      "snowball": "Snowball",
+      "avalanche": "Avalanche",
+      "hybrid": "Hybrid",
+      "snowballHint": "ปิดยอดเล็กก่อน ชนะเร็วช่วยให้ไปต่อไหว",
+      "avalancheHint": "จัดการ APR สูงสุดก่อน ถูกสุดในระยะยาว",
+      "hybridHint": "กำจัดหนี้ดอกสูงก่อน แล้วค่อยปิดยอดเล็ก",
+      "monthsTotal": "{count} เดือน",
+      "totalInterest": "ดอกเบี้ยรวม",
+      "paidOffBy": "ปลอดหนี้ {date}",
+      "cheapest": "ประหยัดสุด",
+      "deltaVsCheapest": "+{amount} เทียบแผนประหยัดสุด",
+      "selectHint": "เลือกแผนเพื่อโฟกัสตารางและกราฟด้านล่าง"
+    },
+    "chart": {
+      "title": "ยอดหนี้คงเหลือ",
+      "description": "ทั้งสามแผน เดือนต่อเดือน",
+      "tooltipMonth": "เดือนที่ {month}",
+      "legendBalance": "ยอดหนี้"
+    },
+    "simulator": {
+      "title": "จำลองการจ่ายเพิ่ม",
+      "description": "เงินที่เพิ่มเข้ามาจะถูกส่งตรงไปที่หนี้ลำดับแรกของแผน",
+      "label": "จ่ายเพิ่มต่อเดือน",
+      "savedMonths": "เสร็จเร็วขึ้น {count} เดือน",
+      "savedInterest": "ประหยัดดอกเบี้ย {amount}",
+      "noSaving": "ยังไม่มีผล เพิ่มจำนวนที่จ่ายมากกว่าศูนย์"
+    },
+    "table": {
+      "title": "ตารางรายเดือน",
+      "subtitle": "แผน {strategy} เริ่ม {date}",
+      "colIndex": "#",
+      "colDate": "เดือน",
+      "colBalance": "ยอดคงเหลือ",
+      "colInterest": "ดอกเบี้ย",
+      "colPrincipal": "เงินต้น",
+      "clearedRow": "{name} ปิดแล้ว"
+    },
+    "error": {
+      "unsolvable": "การชำระขั้นต่ำไม่พอครอบคลุมดอกเบี้ยที่ทบไปเรื่อยๆ ลองเพิ่มยอดขั้นต่ำหรือจ่ายเพิ่มในแต่ละเดือน",
+      "generic": "จำลองแผนด้วยข้อมูลที่กรอกไม่สำเร็จ",
+      "importVersion": "ไฟล์นี้ถูกส่งออกจากเวอร์ชันอื่นของตัววางแผนชำระหนี้"
+    }
+  },
   "shared": {
     "export": "ส่งออก JSON",
     "import": "นำเข้า JSON",
