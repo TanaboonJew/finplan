@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "appName": "FinPlan",
+    "title": "FinPlan — personal finance toolkit",
+    "description": "A local-first collection of interactive planners for debt, budgets, retirement, taxes and everyday money decisions."
+  },
+  "common": {
+    "appName": "FinPlan",
+    "home": "Home",
+    "toggleTheme": "Toggle theme",
+    "switchLanguage": "Switch language"
+  },
+  "footer": {
+    "localNote": "Everything runs and stays in your browser. No accounts, no tracking — your data never leaves this device.",
+    "disclaimer": "An independent educational project. Not financial advice.",
+    "copyright": "© {year} FinPlan"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "message": "The page you were looking for does not exist.",
+    "back": "Back to the hub"
+  },
+  "hub": {
+    "heroBadge": "Local-first · Free · No sign-up",
+    "heroTitle": "Make sense of your money, one plan at a time.",
+    "heroSubtitle": "A toolkit of hands-on planners for debt, budgeting, investing and everyday spending — all running privately in your browser.",
+    "heroBrowse": "Browse the tools",
+    "heroFeatured": "Start with the debt planner",
+    "statsToolsLabel": "Interactive tools",
+    "statsPrivateValue": "100%",
+    "statsPrivateLabel": "Private by design — data stays on your device",
+    "statsCostValue": "$0",
+    "statsCostLabel": "Free forever, no account required",
+    "cta": "Open tool",
+    "badges": {
+      "new": "New",
+      "popular": "Popular"
+    }
+  },
+  "categories": {
+    "planning": {
+      "name": "Goals & planning",
+      "blurb": "Map where you are headed and check how ready you are."
+    },
+    "budgeting": {
+      "name": "Budgeting",
+      "blurb": "Give every unit of income a job and watch it behave."
+    },
+    "debt": {
+      "name": "Debt & loans",
+      "blurb": "See exactly what borrowing costs — and how to escape it faster."
+    },
+    "investing": {
+      "name": "Investing",
+      "blurb": "Compare strategies and keep fees from eating your returns."
+    },
+    "protection": {
+      "name": "Taxes & protection",
+      "blurb": "Cover the risks and keep more of what you earn."
+    }
+  },
+  "tools": {
+    "debt": {
+      "title": "Debt payoff planner",
+      "description": "Compare snowball, avalanche and hybrid payoff plans month by month."
+    },
+    "budget": {
+      "title": "Yearly budget",
+      "description": "Plan twelve months of income and spending by category."
+    },
+    "retirement": {
+      "title": "Retirement planner",
+      "description": "Project growth, test scenarios and find your FIRE number."
+    },
+    "jar": {
+      "title": "Six jars manager",
+      "description": "Split income across jars and track each balance over time."
+    },
+    "loan": {
+      "title": "Loan explainer",
+      "description": "Watch principal and interest split apart over a loan's lifetime."
+    },
+    "tax": {
+      "title": "Tax planner",
+      "description": "Apply bracket tables, deductions and preview take-home pay."
+    },
+    "timeline": {
+      "title": "Life goals timeline",
+      "description": "Put house, kids and retirement on one shared timeline."
+    },
+    "pay": {
+      "title": "Subscriptions tracker",
+      "description": "Keep tabs on recurring payments and renewal dates."
+    },
+    "dca": {
+      "title": "DCA fee comparator",
+      "description": "See how fund fees compound against long-term investing."
+    },
+    "flow": {
+      "title": "Cash flow planner",
+      "description": "Visualize monthly income versus expenses and stress-test changes."
+    },
+    "credit-card": {
+      "title": "Credit card compare",
+      "description": "Rank cards by fees and rewards for your spending profile."
+    },
+    "travel-card": {
+      "title": "Travel card comparator",
+      "description": "Compare FX fees and rewards for spending abroad."
+    },
+    "insurance": {
+      "title": "Insurance manager",
+      "description": "Summarize policies and spot coverage gaps per family member."
+    },
+    "strategy": {
+      "title": "Investment strategy board",
+      "description": "Collect thesis, scenarios and risks on one board."
+    },
+    "kingdom": {
+      "title": "Budget kingdom",
+      "description": "Turn categories into buildings and grow them toward goals."
+    },
+    "wake-up": {
+      "title": "Readiness quiz",
+      "description": "Score your financial foundations with a ten-question checklist."
+    },
+    "portfolio-analyzer": {
+      "title": "Portfolio analyzer",
+      "description": "Paste your holdings to reveal allocation and concentration."
+    },
+    "statement": {
+      "title": "Statement parser",
+      "description": "Import CSV statements and auto-categorize transactions."
+    }
+  },
+  "toolPage": {
+    "comingSoon": "This planner is on the roadmap — its full build ships in an upcoming phase.",
+    "back": "Back to hub"
+  }
+}
