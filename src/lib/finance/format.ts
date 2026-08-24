@@ -41,10 +41,18 @@ export function formatCompactCurrency(
     currency = DEFAULT_CURRENCY,
     maximumFractionDigits = 1,
   } = options;
+  if (Math.abs(amount) < 1000) {
+    return new Intl.NumberFormat(locale, {
+      style: "currency",
+      currency,
+      maximumFractionDigits: 0,
+    }).format(amount);
+  }
   return new Intl.NumberFormat(locale, {
     style: "currency",
     currency,
     notation: "compact",
+    minimumFractionDigits: 0,
     maximumFractionDigits,
   }).format(amount);
 }
