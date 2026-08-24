@@ -369,6 +369,72 @@
       "empty": "Balances will appear once jars hold money."
     }
   },
+  "retirement": {
+    "error": {
+      "importVersion": "That file was exported by a different version of the retirement planner."
+    },
+    "toolbar": {
+      "currency": "Currency",
+      "seedConfirm": "Replace your current plan with the demo profile?",
+      "reset": "Reset",
+      "resetConfirm": "Restore all inputs to their defaults?"
+    },
+    "inputs": {
+      "title": "Your plan",
+      "currentAge": "Current age",
+      "retirementAge": "Retirement age",
+      "currentSavings": "Current savings",
+      "monthlyContribution": "Monthly contribution",
+      "annualReturn": "Expected annual return",
+      "inflation": "Expected inflation",
+      "desiredIncome": "Desired income per year",
+      "desiredIncomeHint": "In today's money",
+      "withdrawalRate": "Withdrawal rate",
+      "errors": {
+        "ageOrder": "Retirement age must be after your current age.",
+        "rangeReturn": "Return must be between 0% and 50%.",
+        "rangeInflation": "Inflation must be between 0% and 50%.",
+        "rangeWithdrawal": "Withdrawal rate must be between 0.5% and 20%."
+      }
+    },
+    "stats": {
+      "fireNumber": "FIRE number",
+      "fireNumberSub": "{income}/yr at retirement · {rate} withdrawal",
+      "projected": "Projected at {age}",
+      "projectedSub": "≈ {amount} in today's money",
+      "surplus": "Surplus at retirement",
+      "shortfall": "Shortfall at retirement",
+      "fiAge": "Financial independence at age {age}",
+      "offTrack": "Target not reached by age {age}",
+      "neededMonthly": "Needed per month",
+      "neededMonthlySub": "Currently saving {current}/mo",
+      "savingEnough": "You're already saving enough"
+    },
+    "chart": {
+      "title": "Growth projection",
+      "description": "Bear / expected / bull scenarios for return and inflation.",
+      "tooltipAge": "Age {age}",
+      "legend": {
+        "bear": "Bear market",
+        "base": "Expected",
+        "bull": "Bull market"
+      },
+      "fireLine": "FIRE target"
+    },
+    "scenarios": {
+      "title": "Inflation & return scenarios",
+      "description": "Each scenario inflates its own FIRE target; balances show nominal value and today's money.",
+      "colScenario": "Scenario",
+      "colReturn": "Return",
+      "colInflation": "Inflation",
+      "colBalance": "Balance at retirement",
+      "colToday": "Today's money",
+      "colVsFire": "Vs FIRE target",
+      "bear": "Bear market",
+      "base": "Expected",
+      "bull": "Bull market"
+    }
+  },
   "shared": {
     "export": "Export JSON",
     "import": "Import JSON",

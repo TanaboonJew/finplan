@@ -369,6 +369,72 @@
       "empty": "ยอดคงเหลือจะแสดงเมื่อโหลเริ่มมีเงิน"
     }
   },
+  "retirement": {
+    "error": {
+      "importVersion": "ไฟล์นี้ถูกส่งออกจากเวอร์ชันอื่นของตัววางแผนเกษียณ"
+    },
+    "toolbar": {
+      "currency": "สกุลเงิน",
+      "seedConfirm": "แทนที่แผนปัจจุบันของคุณด้วยโปรไฟล์ตัวอย่าง?",
+      "reset": "รีเซ็ต",
+      "resetConfirm": "คืนค่าเริ่มต้นของทุกช่องกรอก?"
+    },
+    "inputs": {
+      "title": "แผนของคุณ",
+      "currentAge": "อายุปัจจุบัน",
+      "retirementAge": "อายุที่จะเกษียณ",
+      "currentSavings": "เงินออมปัจจุบัน",
+      "monthlyContribution": "เงินออมต่อเดือน",
+      "annualReturn": "ผลตอบแทนต่อปีที่คาดหวัง",
+      "inflation": "เงินเฟ้อที่คาดหวัง",
+      "desiredIncome": "รายได้ที่ต้องการต่อปี",
+      "desiredIncomeHint": "เทียบมูลค่าวันนี้",
+      "withdrawalRate": "อัตราถอนต่อปี",
+      "errors": {
+        "ageOrder": "อายุเกษียณต้องมากกว่าอายุปัจจุบัน",
+        "rangeReturn": "ผลตอบแทนต้องอยู่ระหว่าง 0% ถึง 50%",
+        "rangeInflation": "เงินเฟ้อต้องอยู่ระหว่าง 0% ถึง 50%",
+        "rangeWithdrawal": "อัตราถอนต้องอยู่ระหว่าง 0.5% ถึง 20%"
+      }
+    },
+    "stats": {
+      "fireNumber": "ยอดเงินเป้าหมาย FIRE",
+      "fireNumberSub": "{income}/ปี ตอนเกษียณ · ถอน {rate}",
+      "projected": "คาดการณ์ตอนอายุ {age} ปี",
+      "projectedSub": "≈ {amount} เทียบมูลค่าวันนี้",
+      "surplus": "เงินเหลือตอนเกษียณ",
+      "shortfall": "เงินไม่พอตอนเกษียณ",
+      "fiAge": "อิสรภาพการเงินที่อายุ {age} ปี",
+      "offTrack": "ไม่ถึงเป้าหมายภายในอายุ {age} ปี",
+      "neededMonthly": "ต้องออมต่อเดือน",
+      "neededMonthlySub": "ปัจจุบันออม {current}/เดือน",
+      "savingEnough": "คุณออมเพียงพอแล้ว"
+    },
+    "chart": {
+      "title": "ฉายภาพการเติบโต",
+      "description": "สถานการณ์ตลาดหมี / คาดหวัง / ตลาดหมู สำหรับผลตอบแทนและเงินเฟ้อ",
+      "tooltipAge": "อายุ {age} ปี",
+      "legend": {
+        "bear": "ตลาดหมี",
+        "base": "คาดหวัง",
+        "bull": "ตลาดหมู"
+      },
+      "fireLine": "เป้า FIRE"
+    },
+    "scenarios": {
+      "title": "สถานการณ์เงินเฟ้อและผลตอบแทน",
+      "description": "แต่ละสถานการณ์ปรับเป้า FIRE ตามเงินเฟ้อของตัวเอง ยอดแสดงทั้งมูลค่าในอนาคตและเทียบมูลค่าวันนี้",
+      "colScenario": "สถานการณ์",
+      "colReturn": "ผลตอบแทน",
+      "colInflation": "เงินเฟ้อ",
+      "colBalance": "ยอดตอนเกษียณ",
+      "colToday": "มูลค่าวันนี้",
+      "colVsFire": "เทียบเป้า FIRE",
+      "bear": "ตลาดหมี",
+      "base": "คาดหวัง",
+      "bull": "ตลาดหมู"
+    }
+  },
   "shared": {
     "export": "ส่งออก JSON",
     "import": "นำเข้า JSON",
