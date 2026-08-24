@@ -137,6 +137,83 @@
     "comingSoon": "This planner is on the roadmap — its full build ships in an upcoming phase.",
     "back": "Back to hub"
   },
+  "jar": {
+    "title": "Six jars manager",
+    "subtitle": "Split each paycheck across jars by percentage, spend from the right jar, and move money when plans change — everything stays in your browser.",
+    "loading": "Loading your jars…",
+    "stats": {
+      "label": "Overview",
+      "incomeLabel": "Income distributed",
+      "spentLabel": "Spent from jars",
+      "netOnHandLabel": "Net on hand",
+      "transferredLabel": "Transferred between jars"
+    },
+    "toolbar": {
+      "reset": "Clear all data",
+      "resetConfirm": "Delete all jar data stored in this browser?",
+      "importInvalid": "This file is not a valid Six Jars export."
+    },
+    "income": {
+      "title": "Record income",
+      "amountLabel": "Amount received",
+      "noteLabel": "Note (optional)",
+      "dateLabel": "Date",
+      "distribute": "Distribute to jars",
+      "noSplitHint": "Add at least one jar with a share above 0% to record income.",
+      "splitHintPrefix": "Will be split:",
+      "logTitle": "Income history",
+      "logEmpty": "No income recorded yet.",
+      "remove": "Remove entry"
+    },
+    "jars": {
+      "title": "Your jars",
+      "addJar": "Add jar",
+      "loadClassic": "Use the classic six jars",
+      "emptyTitle": "No jars yet",
+      "emptyMessage": "Start from the classic six-jar split or add your own custom jars.",
+      "splitTotalLabel": "Split total:",
+      "nameLabel": "Jar name",
+      "percentLabel": "Share of income (%)",
+      "balanceLabel": "Balance",
+      "spentLabel": "Spent",
+      "spendLabel": "Spend",
+      "spendNotePlaceholder": "What did you pay for?",
+      "overspendHint": "More than this jar holds",
+      "removeJar": "Delete jar",
+      "deleteBlockedHint": "This jar has history and cannot be deleted",
+      "newJarDefault": "New jar",
+      "unknownJar": "Removed jar",
+      "classic": {
+        "necessities": "Necessities",
+        "financialFreedom": "Financial freedom",
+        "education": "Education",
+        "longTermSavings": "Long-term savings",
+        "play": "Play",
+        "give": "Give"
+      }
+    },
+    "transfers": {
+      "title": "Move money between jars",
+      "needTwoJars": "Create at least two jars to move money between them.",
+      "fromLabel": "From jar",
+      "toLabel": "To jar",
+      "amountLabel": "Amount",
+      "noteLabel": "Note (optional)",
+      "dateLabel": "Date",
+      "availableLabel": "Available",
+      "move": "Move money",
+      "sameJarHint": "Pick two different jars.",
+      "insufficientHint": "Not enough in the source jar.",
+      "logTitle": "Transfer history",
+      "logEmpty": "No transfers yet.",
+      "remove": "Remove entry"
+    },
+    "chart": {
+      "title": "Where your money sits",
+      "description": "Current balance per jar",
+      "empty": "Balances will appear once jars hold money."
+    }
+  },
   "shared": {
     "export": "Export JSON",
     "import": "Import JSON",
