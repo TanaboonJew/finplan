@@ -136,5 +136,12 @@
   "toolPage": {
     "comingSoon": "This planner is on the roadmap — its full build ships in an upcoming phase.",
     "back": "Back to hub"
+  },
+  "shared": {
+    "export": "Export JSON",
+    "import": "Import JSON",
+    "importError": "This file could not be read as a valid FinPlan export.",
+    "seedDemo": "Seed demo data",
+    "seedConfirm": "Replace your current data with demo data?"
   }
 }

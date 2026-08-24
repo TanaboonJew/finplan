@@ -111,7 +111,7 @@ Fun extras (`moodeng`, `kilocash`, `pipe-cleaner`) are **out of scope**.
 Each phase ≈ one session. Keep sessions single-phase.
 
 - **Phase 0 — Scaffold:** repo init, Next.js + TS + Tailwind + shadcn, app shell, hub landing page with all cards (dead links ok), i18n wiring, dark mode, deploy pipeline. ✅
-- **Phase 1 — Foundations:** `lib/finance` full implementation + Vitest suite; shared components (MoneyInput, StatCard, ChartCard, ExportImportButtons, SeedDemoButton); storage conventions doc.
+- **Phase 1 — Foundations:** `lib/finance` full implementation + Vitest suite; shared components (MoneyInput, StatCard, ChartCard, ExportImportButtons, SeedDemoButton); storage conventions doc. ✅
 - **Phases 2–19 — Tools:** one tool per phase, in table order. Spec first (`docs/specs/x.md`), then implement, then test.
 - **Phase 20 — Polish:** PWA/offline, SEO metadata per tool, OG images, accessibility pass, README with screenshots, rename check.
 
