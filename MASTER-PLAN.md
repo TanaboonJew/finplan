@@ -87,8 +87,8 @@ Status legend: ⬜ todo · 🟦 spec written · ✅ done
 |---|---|---|---|---|---|
 | 0 | `/` | Hub landing | Hero, stats band, category sections, card grid | Search/filter, keyboard nav | ✅ |
 | 1 | `/debt` | Debt payoff planner | Multiple debts, Snowball vs Avalanche vs Hybrid, month-by-month schedule chart, total interest comparison | Extra-payment simulator, payoff date picker | ✅ |
-| 2 | `/budget` | Yearly budget | Categories × 12 months grid, planned vs actual, health score | Rollover unused budget option | ⬜ |
-| 3 | `/retirement` | Retirement planner | Age/income/savings inputs, growth projection chart, FIRE number | Monte Carlo-lite (inflation scenarios) | ⬜ |
+| 2 | `/budget` | Yearly budget | Categories × 12 months grid, planned vs actual, health score | Rollover unused budget option | ✅ |
+| 3 | `/retirement` | Retirement planner | Age/income/savings inputs, growth projection chart, FIRE number | Monte Carlo-lite (inflation scenarios) | ✅ |
 | 4 | `/jar` | Six Jars manager | 6 jars w/ % split, income distribution, balance tracking | Custom jars, transfer history log | ✅ |
 | 5 | `/loan` | Loan explainer | Amortization viz, principal-vs-interest split over time | Refinance break-even calculator | ⬜ |
 | 6 | `/tax` | Tax planner | Bracket engine (configurable table), deductions, take-home breakdown | Multi-country bracket presets (TH/US) | ⬜ |
