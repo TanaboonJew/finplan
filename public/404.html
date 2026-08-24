@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>FinPlan</title>
+    <script>
+      (function () {
+        var path = window.location.pathname;
+        if (!/^\/(en|th)(\/|$)/.test(path)) {
+          var rest = path.replace(/^\/+/, "");
+          var target = "/en/" + (rest ? rest : "");
+          window.location.replace(target);
+        }
+      })();
+    </script>
+    <meta http-equiv="refresh" content="0; url=/en/" />
+  </head>
+  <body>
+    <p>Redirecting… <a href="/en/">Go to FinPlan</a></p>
+  </body>
+</html>

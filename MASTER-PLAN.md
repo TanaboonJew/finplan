@@ -19,6 +19,7 @@ A hub site (`/`) listing ~17 self-contained finance planning tools. Each tool ru
 4. **Finance math lives in `src/lib/finance`** as pure functions with Vitest unit tests. Components never do raw money math inline.
 5. **Every tool ships complete**: responsive, dark mode, i18n keys, persistence, demo-data seed button, JSON export/import, empty states.
 6. TypeScript strict mode. No `any`. Lint + typecheck + tests pass before marking a phase done.
+7. **Static-export compatible only.** The site ships as `output: 'export'` to GitHub Pages: no proxy/middleware, no server actions/route handlers, no ISR, images unoptimized, every URL must be a prerendered file. Locale prefixes are always explicit (`/en/...`, `/th/...`).
 
 ## 3. Stack (decided)
 
@@ -32,7 +33,7 @@ A hub site (`/`) listing ~17 self-contained finance planning tools. Each tool ru
 | Charts | Recharts |
 | i18n | next-intl (`en`, `th`) |
 | Tests | Vitest (+ @testing-library/react where useful) |
-| Deploy | Vercel |
+| Deploy | GitHub Pages — https://tanaboonjew.github.io/ (static export) |
 
 ## 4. Repository layout
 
