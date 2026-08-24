@@ -4,6 +4,78 @@
     "title": "FinPlan — personal finance toolkit",
     "description": "A local-first collection of interactive planners for debt, budgets, retirement, taxes and everyday money decisions."
   },
+  "budget": {
+    "title": "Yearly budget",
+    "subtitle": "Plan every month of the year by category, track what you actually spend, and let unused budget roll forward when you want it to.",
+    "loading": "Loading your budget…",
+    "stats": {
+      "plannedLabel": "Planned this year",
+      "actualLabel": "Recorded so far",
+      "remainingLabel": "Remaining",
+      "healthLabel": "Health score",
+      "healthSublabel": "{within} of {total} recorded months within plan",
+      "noData": "Record spending to get a score"
+    },
+    "toolbar": {
+      "reset": "Clear all data",
+      "resetConfirm": "Delete all budget data stored in this browser?",
+      "importInvalid": "This file is not a valid Yearly budget export."
+    },
+    "year": {
+      "label": "Year"
+    },
+    "kinds": {
+      "expense": "Expense",
+      "savings": "Savings"
+    },
+    "grid": {
+      "title": "Categories × 12 months",
+      "nameColumn": "Category",
+      "totalColumn": "Year",
+      "legendPlan": "Plan (editable)",
+      "legendActual": "Actual",
+      "legendOver": "Over available",
+      "availableLabel": "Available",
+      "rolloverLabel": "Rollover",
+      "rolloverHint": "Carries unused budget into the next month instead of resetting.",
+      "removeCategory": "Delete category",
+      "removeCategoryConfirm": "Delete \"{name}\" and its recorded spending?",
+      "emptyTitle": "No categories yet",
+      "emptyMessage": "Add your first category below, or load the demo data to see a full example year.",
+      "addCategory": {
+        "nameLabel": "Category name",
+        "kindLabel": "Type",
+        "addButton": "Add category"
+      }
+    },
+    "record": {
+      "title": "Record spending",
+      "categoryLabel": "Category",
+      "monthLabel": "Month",
+      "amountLabel": "Amount",
+      "noteLabel": "Note (optional)",
+      "notePlaceholder": "What was it for?",
+      "addButton": "Record",
+      "needCategoryHint": "Add a category first to record spending.",
+      "logTitle": "Recent entries",
+      "logEmpty": "Nothing recorded yet.",
+      "remove": "Remove entry"
+    },
+    "chart": {
+      "title": "Plan vs actual by month",
+      "description": "All categories combined",
+      "empty": "The chart appears once categories have plans or recorded spending.",
+      "planned": "Planned",
+      "actual": "Actual"
+    },
+    "health": {
+      "great": "On track",
+      "good": "Mostly on track",
+      "fair": "Drifting",
+      "poor": "Off track",
+      "noData": "No data"
+    }
+  },
   "common": {
     "appName": "FinPlan",
     "home": "Home",
