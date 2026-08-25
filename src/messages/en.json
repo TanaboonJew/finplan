@@ -877,6 +877,83 @@
       "importVersion": "That file was exported by a different version of the cash flow planner."
     }
   },
+  "credit-card": {
+    "title": "Credit card compare",
+    "subtitle": "Compare cards by fees, rewards and your spending profile to find the best card for you.",
+    "loading": "Loading your credit cards…",
+    "stats": {
+      "label": "Overview",
+      "bestCard": "Best card",
+      "netValue": "net value",
+      "totalSpend": "Total annual spend",
+      "totalSpendSub": "Across {count} cards",
+      "avgEffRate": "Average effective rate",
+      "avgEffRateSub": "Net value per dollar spent",
+      "cardsCompared": "Cards compared",
+      "cardsComparedSub": "In active profile"
+    },
+    "toolbar": {
+      "reset": "Clear all data",
+      "resetConfirm": "Delete all credit card data stored in this browser?",
+      "importInvalid": "This file is not a valid Credit card compare export."
+    },
+    "editor": {
+      "title": "Your cards",
+      "addTitle": "Add a card",
+      "nameLabel": "Card name",
+      "namePlaceholder": "e.g. Chase Sapphire",
+      "networkLabel": "Network",
+      "networkPlaceholder": "Select…",
+      "annualFeeLabel": "Annual fee",
+      "aprLabel": "APR (%)",
+      "foreignFeeLabel": "Foreign transaction fee (%)",
+      "rewardTypeLabel": "Reward type",
+      "rewardTypes": {
+        "cashback": "Cashback",
+        "points": "Points",
+        "miles": "Miles"
+      },
+      "pointValueLabel": "Point value ($)",
+      "signupBonusLabel": "Sign-up bonus ($)",
+      "rewardRatesLabel": "Reward rates",
+      "rateCategoryPlaceholder": "Category (or \"all\")",
+      "addRate": "Add rate tier",
+      "add": "Add card",
+      "edit": "Edit",
+      "save": "Save",
+      "cancel": "Cancel",
+      "fee": "Fee",
+      "delete": "Delete",
+      "deleteConfirm": "Delete \"{name}\"?",
+      "emptyTitle": "No cards yet",
+      "emptyBody": "Add your first credit card or load demo data to see how cards compare."
+    },
+    "spend": {
+      "title": "Spend profile",
+      "noProfiles": "Create a spend profile to estimate rewards.",
+      "addProfile": "Add profile",
+      "profileNamePlaceholder": "Profile name",
+      "newProfilePlaceholder": "New profile",
+      "deleteProfileConfirm": "Delete this spend profile?",
+      "noCategories": "Add spending categories to estimate rewards.",
+      "categoryNamePlaceholder": "Category name",
+      "addCategory": "Add category"
+    },
+    "ranking": {
+      "title": "Card ranking",
+      "subtitle": "Cards sorted by net annual value (rewards + bonus − fees).",
+      "colCard": "Card",
+      "colRewards": "Rewards",
+      "colFee": "Annual fee",
+      "colBonus": "Bonus",
+      "colNet": "Net value",
+      "colEffRate": "Eff. rate",
+      "barTitle": "Net annual value comparison",
+      "emptyTitle": "Add cards and a spend profile to see the ranking.",
+      "emptyBody": "Enter your credit cards and spending to see which one earns the most.",
+      "rewardBreakdown": "Reward breakdown by category"
+    }
+  },
   "shared": {
     "export": "Export JSON",
     "import": "Import JSON",
