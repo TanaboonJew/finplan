@@ -954,6 +954,68 @@
       "rewardBreakdown": "Reward breakdown by category"
     }
   },
+  "travel-card": {
+    "toolbar": {
+      "seedConfirm": "Replace your current cards with the demo set?",
+      "reset": "Reset",
+      "resetConfirm": "Clear all card and trip data?"
+    },
+    "cards": {
+      "title": "Your cards",
+      "addCard": "Add card",
+      "removeCard": "Remove card",
+      "deleteConfirm": "Remove \"{name}\" from comparison?",
+      "nameLabel": "Card name",
+      "namePlaceholder": "e.g. Wise card",
+      "annualFeeLabel": "Annual fee",
+      "atmFeeLabel": "ATM fee",
+      "fxFeeLabel": "FX fee",
+      "fxMarkupLabel": "FX markup",
+      "rewardForeignLabel": "Foreign reward",
+      "rewardDomesticLabel": "Domestic reward",
+      "cardLabel": "Card",
+      "validation": {
+        "nameRequired": "Give this card a name."
+      },
+      "emptyTitle": "No cards yet",
+      "emptyBody": "Add at least one card to compare, or load the demo data to see how FX fees and rewards affect trip costs."
+    },
+    "trip": {
+      "title": "Trip details",
+      "foreignSpend": "Spending abroad",
+      "daysAbroad": "Days abroad",
+      "destCurrency": "Destination currency",
+      "vatPreset": "VAT country preset",
+      "vatRate": "VAT rate",
+      "vatMinSpend": "Minimum spend for VAT refund",
+      "enableVatRefund": "Enable VAT refund estimation",
+      "validation": {
+        "spendPositive": "Foreign spending must be greater than zero.",
+        "daysPositive": "Days abroad must be at least 1."
+      }
+    },
+    "results": {
+      "bestCard": "Best card for this trip",
+      "best": "Best",
+      "savingsVsWorst": "Saves {amount} compared to the most expensive card",
+      "netTripCost": "Net trip cost",
+      "fxCost": "FX cost",
+      "rewards": "Rewards + VAT",
+      "annualFee": "Annual fee (prorated)"
+    },
+    "chart": {
+      "title": "Trip cost breakdown",
+      "description": "FX fees, rewards, and annual fee per card",
+      "fxFee": "FX fee",
+      "fxMarkup": "FX markup",
+      "reward": "Foreign reward",
+      "vatRefund": "VAT refund",
+      "annualFee": "Annual fee"
+    },
+    "error": {
+      "importVersion": "That file was exported by a different version of the travel card comparator."
+    }
+  },
   "shared": {
     "export": "Export JSON",
     "import": "Import JSON",
