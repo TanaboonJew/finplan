@@ -1469,6 +1469,67 @@
     },
     "disclaimer": "Prices are entered manually — values reflect what you type, not live markets."
   },
+  "statement": {
+    "title": "Statement parser",
+    "subtitle": "Paste a bank or card CSV, auto-categorize it with your own rules, and review every transaction locally.",
+    "loading": "Loading statement…",
+    "stats": {
+      "label": "Statement stats",
+      "moneyIn": "Money in",
+      "moneyOut": "Money out",
+      "net": "Net",
+      "months": "months covered",
+      "count": "Transactions"
+    },
+    "paste": {
+      "title": "Paste a CSV statement",
+      "description": "Columns: date, description and amount — or debit/credit pairs. Common bank header names are detected automatically.",
+      "parseButton": "Parse CSV",
+      "parsedOk": "Imported {count, plural, one {# transaction} other {# transactions}}.",
+      "invalid": "Could not parse this CSV."
+    },
+    "summary": {
+      "title": "By category"
+    },
+    "rules": {
+      "title": "Auto-categorization rules",
+      "description": "The first matching keyword wins. Rules run automatically on each paste.",
+      "apply": "Re-apply rules",
+      "empty": "No rules yet — add one below to categorize future imports.",
+      "patternPlaceholder": "Keyword, e.g. starbucks",
+      "categoryPlaceholder": "Category",
+      "categoryLabel": "Category",
+      "addRule": "Add rule",
+      "removeRule": "Remove rule",
+      "categories": {
+        "groceries": "Groceries",
+        "dining": "Dining",
+        "transport": "Transport",
+        "shopping": "Shopping",
+        "bills": "Bills",
+        "health": "Health",
+        "entertainment": "Entertainment",
+        "income": "Income",
+        "transfer": "Transfer",
+        "uncategorized": "Uncategorized"
+      }
+    },
+    "transactions": {
+      "title": "Transactions",
+      "date": "Date",
+      "description": "Description",
+      "amount": "Amount",
+      "category": "Category",
+      "remove": "Remove transaction",
+      "emptyTitle": "No transactions yet",
+      "emptyMessage": "Paste a CSV above to import your first transactions. Everything is parsed and stored on this device only."
+    },
+    "toolbar": {
+      "reset": "Reset",
+      "resetConfirm": "Delete all imported transactions and rules stored in this browser?",
+      "importInvalid": "This file is not a valid statement export."
+    }
+  },
   "shared": {
     "export": "Export JSON",
     "import": "Import JSON",

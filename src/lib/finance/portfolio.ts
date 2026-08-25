@@ -285,11 +285,11 @@ export function parseHoldingsCsv(text: string): Holding[] {
   }
 
   const holdings: Holding[] = [];
-  let columnMap: Record<HeaderField, number> | null = mapHeaderCells(
+  const columnMap: Record<HeaderField, number> | null = mapHeaderCells(
     rows[0].cells
   );
 
-  let startIndex = columnMap ? 1 : 0;
+  const startIndex = columnMap ? 1 : 0;
 
   for (let r = startIndex; r < rows.length; r += 1) {
     const row = rows[r];
