@@ -572,6 +572,70 @@
       "importVersion": "ไฟล์นี้ถูกส่งออกจากเวอร์ชันอื่นของตัวอธิบายเงินกู้"
     }
   },
+  "pay": {
+    "toolbar": {
+      "currency": "สกุลเงิน",
+      "seedConfirm": "แทนที่รายการสมาชิกปัจจุบันของคุณด้วยชุดข้อมูลตัวอย่าง?",
+      "reset": "รีเซ็ต",
+      "resetConfirm": "ล้างรายการสมาชิกทั้งหมด?"
+    },
+    "stats": {
+      "monthlyCost": "ค่าใช้จ่ายรายเดือน",
+      "monthlyCostSub": "รวม {count} รายการ",
+      "annualCost": "ค่าใช้จ่ายรายปี",
+      "annualCostSub": "คาดการณ์ยอดรวมต่อปี",
+      "activeSubs": "รายการที่ใช้งาน",
+      "activeSubsSub": "กำลังจ่ายอยู่",
+      "averagePerSub": "เฉลี่ยต่อรายการ",
+      "averagePerSubSub": "เฉลี่ยรายเดือน"
+    },
+    "editor": {
+      "title": "รายการสมาชิกของคุณ",
+      "addButton": "เพิ่มรายการ",
+      "addConfirm": "เพิ่ม",
+      "nameLabel": "ชื่อ",
+      "namePlaceholder": "เช่น Netflix",
+      "amountLabel": "จำนวนเงิน",
+      "cycleLabel": "รอบการเก็บเงิน",
+      "categoryLabel": "หมวดหมู่",
+      "renewalDayLabel": "ต่ออายุวันที่",
+      "renewsDay": "วันที่ {day}",
+      "cycles": {
+        "monthly": "เดือน",
+        "yearly": "ปี"
+      },
+      "deleteConfirm": "ลบ \"{name}\"?",
+      "emptyTitle": "ยังไม่มีรายการสมาชิก",
+      "emptyBody": "เพิ่มรายการแรกของคุณ หรือโหลดข้อมูลตัวอย่างเพื่อดูภาพรวมทั้งหมด",
+      "recordIncreaseTitle": "บันทึกราคาที่เพิ่มขึ้นของ {name}",
+      "newAmountLabel": "จำนวนเงินใหม่",
+      "effectiveMonthLabel": "มีผลเดือน"
+    },
+    "calendar": {
+      "title": "การต่ออายุที่กำลังจะมาถึง",
+      "noRenewals": "ไม่มีการต่ออายุเดือนนี้",
+      "monthTotal": "รวม:"
+    },
+    "chart": {
+      "title": "ค่าใช้จ่ายตามหมวดหมู่",
+      "description": "สัดส่วนค่าใช้จ่ายรายเดือน",
+      "empty": "เพิ่มรายการสมาชิกเพื่อดูสัดส่วนค่าใช้จ่าย"
+    },
+    "increases": {
+      "title": "ติดตามการเพิ่มราคา",
+      "description": "รายการสมาชิกที่มีราคาเพิ่มขึ้นตามเวลา",
+      "empty": "ยังไม่มีบันทึกการเพิ่มราคา",
+      "colName": "รายการ",
+      "colOriginal": "ราคาเดิม",
+      "colCurrent": "ราคาปัจจุบัน",
+      "colIncrease": "เพิ่มขึ้น",
+      "colPercent": "% เปลี่ยนแปลง",
+      "colChanges": "จำนวนครั้ง"
+    },
+    "error": {
+      "importVersion": "ไฟล์นี้ถูกส่งออกจากเวอร์ชันอื่นของเครื่องมือติดตามค่าสมาชิก"
+    }
+  },
   "shared": {
     "export": "ส่งออก JSON",
     "import": "นำเข้า JSON",

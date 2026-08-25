@@ -572,6 +572,70 @@
       "importVersion": "That file was exported by a different version of the loan explainer."
     }
   },
+  "pay": {
+    "toolbar": {
+      "currency": "Currency",
+      "seedConfirm": "Replace your current subscriptions with the demo set?",
+      "reset": "Reset",
+      "resetConfirm": "Clear all subscriptions?"
+    },
+    "stats": {
+      "monthlyCost": "Monthly cost",
+      "monthlyCostSub": "Across {count, plural, one {# subscription} other {# subscriptions}}",
+      "annualCost": "Annual cost",
+      "annualCostSub": "Projected yearly total",
+      "activeSubs": "Active subs",
+      "activeSubsSub": "Currently paying",
+      "averagePerSub": "Average per sub",
+      "averagePerSubSub": "Monthly average"
+    },
+    "editor": {
+      "title": "Your subscriptions",
+      "addButton": "Add subscription",
+      "addConfirm": "Add",
+      "nameLabel": "Name",
+      "namePlaceholder": "e.g. Netflix",
+      "amountLabel": "Amount",
+      "cycleLabel": "Billing cycle",
+      "categoryLabel": "Category",
+      "renewalDayLabel": "Renews on day",
+      "renewsDay": "Day {day}",
+      "cycles": {
+        "monthly": "month",
+        "yearly": "year"
+      },
+      "deleteConfirm": "Delete \"{name}\"?",
+      "emptyTitle": "No subscriptions yet",
+      "emptyBody": "Add your first subscription or load demo data to see a full overview.",
+      "recordIncreaseTitle": "Record price increase for {name}",
+      "newAmountLabel": "New amount",
+      "effectiveMonthLabel": "Effective month"
+    },
+    "calendar": {
+      "title": "Upcoming renewals",
+      "noRenewals": "No renewals this month",
+      "monthTotal": "Total:"
+    },
+    "chart": {
+      "title": "Cost by category",
+      "description": "Monthly cost breakdown",
+      "empty": "Add subscriptions to see cost breakdown."
+    },
+    "increases": {
+      "title": "Price increase tracker",
+      "description": "Subscription prices that have gone up over time.",
+      "empty": "No price increases recorded yet.",
+      "colName": "Subscription",
+      "colOriginal": "Original price",
+      "colCurrent": "Current price",
+      "colIncrease": "Increase",
+      "colPercent": "% change",
+      "colChanges": "Changes"
+    },
+    "error": {
+      "importVersion": "That file was exported by a different version of the subscriptions tracker."
+    }
+  },
   "shared": {
     "export": "Export JSON",
     "import": "Import JSON",
