@@ -100,7 +100,7 @@ Status legend: â¬œ todo Â· ðŸŸ¦ spec written Â· âœ… done
 | 12 | `/travel-card` | Travel card comparator | FX fees, rewards abroad, VAT refund calc | Trip cost simulator  ✅ |
 | 13 | `/insurance` | Insurance manager | Policies list, coverage summary per member | Coverage-gap checklist  ✅ |
 | 14 | `/strategy` | Investment strategy board | Thesis/scenario/risk cards, kanban-ish layout | Export board as markdown  ✅ |
-| 15 | `/kingdom` | Gamified budget kingdom | Category "buildings", growth animation to goal | Achievements stored locally | â¬œ |
+| 15 | `/kingdom` | Gamified budget kingdom | Category "buildings", growth animation to goal | Achievements stored locally  ✅ |
 | 16 | `/wake-up` | Readiness quiz | 10-question scored checklist | Personalized action tips per answer | â¬œ |
 | 17 | `/portfolio-analyzer` | Portfolio dashboard | Paste CSV/table â†’ allocation donut, concentration warnings | Benchmark drift indicator | â¬œ |
 | 18 | `/statement` | Statement parser | PDF/CSV import (start CSV-only), categorize transactions | Rules engine for auto-categorization | â¬œ |
