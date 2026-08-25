@@ -1131,6 +1131,73 @@
       "empty": "Add policies to see the coverage-gap checklist."
     }
   },
+  "strategy": {
+    "title": "Investment strategy board",
+    "subtitle": "Capture investment theses, scenarios, and risks on a visual kanban board.",
+    "loading": "Loading strategy board…",
+    "boardTitle": "Investment Strategy Board",
+    "generatedAt": "Generated",
+    "addThesis": "Add thesis",
+    "board": {
+      "colIdea": "Idea",
+      "colActive": "Active",
+      "colClosed": "Closed",
+      "emptyColumn": "No theses yet.",
+      "highRisk": "High risk",
+      "scenariosCount": "{count, plural, one {# scenario} other {# scenarios}}",
+      "risksCount": "{count, plural, one {# risk} other {# risks}}"
+    },
+    "stats": {
+      "totalTheses": "Total theses",
+      "activeTheses": "Active theses",
+      "avgReturn": "Avg weighted return",
+      "avgReturnSub": "Probability-weighted",
+      "highRisks": "High risks"
+    },
+    "toolbar": {
+      "reset": "Reset",
+      "resetConfirm": "Clear all strategy data?",
+      "importInvalid": "This file is not a valid strategy export.",
+      "exportMd": "Export Markdown"
+    },
+    "editor": {
+      "editThesis": "Edit thesis",
+      "titleLabel": "Title",
+      "titlePlaceholder": "e.g. AI Infrastructure Play",
+      "assetClassLabel": "Asset class",
+      "assetClassPlaceholder": "e.g. Equity",
+      "thesisLabel": "Investment thesis",
+      "statusLabel": "Status",
+      "notesLabel": "Notes",
+      "scenarios": "Scenarios",
+      "risks": "Risks",
+      "addRisk": "Add risk",
+      "addThesis": "Add thesis",
+      "save": "Save",
+      "cancel": "Cancel",
+      "close": "Close",
+      "delete": "Delete",
+      "deleteConfirm": "Delete \"{title}\"?",
+      "outcome": "Outcome",
+      "probability": "Probability",
+      "return": "Return",
+      "horizon": "Horizon (mo)",
+      "notes": "Notes",
+      "riskName": "Risk name",
+      "level": "Level",
+      "mitigation": "Mitigation",
+      "outcomes": {
+        "bull": "Bull",
+        "base": "Base",
+        "bear": "Bear"
+      },
+      "levels": {
+        "low": "Low",
+        "medium": "Medium",
+        "high": "High"
+      }
+    }
+  },
   "shared": {
     "export": "Export JSON",
     "import": "Import JSON",

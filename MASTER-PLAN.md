@@ -99,7 +99,7 @@ Status legend: â¬œ todo Â· ðŸŸ¦ spec written Â· âœ… done
 | 11 | `/credit-card` | Credit card compare | Cards CRUD, fee/rewards fields, spend-based ranking | Rewards value estimator per spend profile | â¬œ |
 | 12 | `/travel-card` | Travel card comparator | FX fees, rewards abroad, VAT refund calc | Trip cost simulator | â¬œ |
 | 13 | `/insurance` | Insurance manager | Policies list, coverage summary per member | Coverage-gap checklist | â¬œ |
-| 14 | `/strategy` | Investment strategy board | Thesis/scenario/risk cards, kanban-ish layout | Export board as markdown | â¬œ |
+| 14 | `/strategy` | Investment strategy board | Thesis/scenario/risk cards, kanban-ish layout | Export board as markdown | âœ… |
 | 15 | `/kingdom` | Gamified budget kingdom | Category "buildings", growth animation to goal | Achievements stored locally | â¬œ |
 | 16 | `/wake-up` | Readiness quiz | 10-question scored checklist | Personalized action tips per answer | â¬œ |
 | 17 | `/portfolio-analyzer` | Portfolio dashboard | Paste CSV/table â†’ allocation donut, concentration warnings | Benchmark drift indicator | â¬œ |

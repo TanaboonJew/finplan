@@ -1131,6 +1131,73 @@
       "empty": "เพิ่มกรมธรรม์เพื่อดูเช็กลิสต์ช่องว่างความคุ้มครอง"
     }
   },
+  "strategy": {
+    "title": "กระดานกลยุทธ์การลงทุน",
+    "subtitle": "บันทึกวิธีคิด สถานการณ์ และความเสี่ยงในการลงทุนบนกระดานคันบัน",
+    "loading": "กำลังโหลดกระดานกลยุทธ์…",
+    "boardTitle": "กระดานกลยุทธ์การลงทุน",
+    "generatedAt": "สร้างเมื่อ",
+    "addThesis": "เพิ่มวิธีคิด",
+    "board": {
+      "colIdea": "ความคิด",
+      "colActive": "ใช้งาน",
+      "colClosed": "ปิดแล้ว",
+      "emptyColumn": "ยังไม่มีวิธีคิด",
+      "highRisk": "ความเสี่ยงสูง",
+      "scenariosCount": "{count, plural, other {# สถานการณ์}}",
+      "risksCount": "{count, plural, other {# ความเสี่ยง}}"
+    },
+    "stats": {
+      "totalTheses": "วิธีคิดทั้งหมด",
+      "activeTheses": "วิธีคิดที่ใช้งาน",
+      "avgReturn": "ผลตอบแทนถ่วงน้ำหนักเฉลี่ย",
+      "avgReturnSub": "ถ่วงน้ำหนักตามความน่าจะเป็น",
+      "highRisks": "ความเสี่ยงสูง"
+    },
+    "toolbar": {
+      "reset": "รีเซ็ต",
+      "resetConfirm": "ลบข้อมูลกลยุทธ์ทั้งหมด?",
+      "importInvalid": "ไฟล์นี้ไม่ใช่ไฟล์ส่งออกกลยุทธ์ที่ถูกต้อง",
+      "exportMd": "ส่งออก Markdown"
+    },
+    "editor": {
+      "editThesis": "แก้ไขวิธีคิด",
+      "titleLabel": "ชื่อ",
+      "titlePlaceholder": "เช่น การเล่นโครงสร้างพื้นฐาน AI",
+      "assetClassLabel": "ประเภทสินทรัพย์",
+      "assetClassPlaceholder": "เช่น หุ้น",
+      "thesisLabel": "วิธีคิดการลงทุน",
+      "statusLabel": "สถานะ",
+      "notesLabel": "บันทึก",
+      "scenarios": "สถานการณ์",
+      "risks": "ความเสี่ยง",
+      "addRisk": "เพิ่มความเสี่ยง",
+      "addThesis": "เพิ่มวิธีคิด",
+      "save": "บันทึก",
+      "cancel": "ยกเลิก",
+      "close": "ปิด",
+      "delete": "ลบ",
+      "deleteConfirm": "ลบ \"{title}\"?",
+      "outcome": "ผลลัพธ์",
+      "probability": "ความน่าจะเป็น",
+      "return": "ผลตอบแทน",
+      "horizon": "ระยะเวลา (เดือน)",
+      "notes": "บันทึก",
+      "riskName": "ชื่อความเสี่ยง",
+      "level": "ระดับ",
+      "mitigation": "การบรรเทา",
+      "outcomes": {
+        "bull": "มองบวก",
+        "base": "กรณีฐาน",
+        "bear": "มองลบ"
+      },
+      "levels": {
+        "low": "ต่ำ",
+        "medium": "ปานกลาง",
+        "high": "สูง"
+      }
+    }
+  },
   "shared": {
     "export": "ส่งออก JSON",
     "import": "นำเข้า JSON",
