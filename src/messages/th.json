@@ -435,6 +435,65 @@
       "bull": "ตลาดหมู"
     }
   },
+  "tax": {
+    "incomeLabel": "รายได้รวมต่อปี",
+    "filingStatus": "สถานะการยื่นภาษี",
+    "filingOptions": {
+      "single": "โสด",
+      "married": "สมรส — ยื่นร่วมกัน"
+    },
+    "toolbar": {
+      "country": "ประเทศ",
+      "seedConfirm": "แทนที่ข้อมูลภาษีปัจจุบันของคุณด้วยชุดข้อมูลตัวอย่าง?",
+      "reset": "รีเซ็ต",
+      "resetConfirm": "ล้างข้อมูลภาษีทั้งหมด?"
+    },
+    "stats": {
+      "grossIncome": "รายได้รวม",
+      "totalDeductions": "ค่าลดหย่อนรวม",
+      "taxableIncome": "เงินได้พึงประเมิน",
+      "totalTax": "ภาษีรวม",
+      "effectiveRate": "อัตราภาษีจริง: {rate}",
+      "marginalRate": "อัตราภาษีสูงสุด (marginal)",
+      "takeHomePay": "เงินได้สุทธิ",
+      "takeHomeMonthly": "{amount}/เดือน"
+    },
+    "deductions": {
+      "title": "ค่าลดหย่อน",
+      "thPersonal": "ค่าลดหย่อนส่วนตัว",
+      "thSocialSecurity": "ประกันสังคม (มาตรา 33)",
+      "thInsurance": "ประกันชีวิตและสุขภาพ",
+      "thRetirement": "กองทุนเกษียณ (RMF/SSF)",
+      "thChild": "ค่าลดหย่อนบุตร",
+      "usStandardDeduction": "ค่าลดหย่อนมาตรฐาน",
+      "customNameLabel": "ชื่อค่าลดหย่อน",
+      "customNamePlaceholder": "เช่น ดอกเบี้ยบ้าน",
+      "amountLabel": "จำนวนเงิน",
+      "addCustom": "เพิ่มค่าลดหย่อน",
+      "removeCustom": "ลบค่าลดหย่อน"
+    },
+    "bracket": {
+      "title": "รายละเอียดขั้นบันไดภาษี",
+      "colRate": "อัตรา",
+      "colRange": "ช่วงเงินได้",
+      "colTaxable": "เงินได้ในบันได",
+      "colTax": "ภาษี",
+      "rangeOpen": "{from} ขึ้นไป",
+      "rangeClosed": "{from} – {to}"
+    },
+    "chart": {
+      "title": "สัดส่วนเงินได้สุทธิ",
+      "description": "จากรายได้รวมสู่เงินได้สุทธิ",
+      "empty": "กรอกจำนวนเงินได้เพื่อดูสัดส่วน",
+      "barGross": "รายได้รวม",
+      "barDeductions": "ค่าลดหย่อน",
+      "barTax": "ภาษี",
+      "barTakeHome": "เงินสุทธิ"
+    },
+    "error": {
+      "importVersion": "ไฟล์นี้ถูกส่งออกจากเวอร์ชันอื่นของตัววางแผนภาษี"
+    }
+  },
   "shared": {
     "export": "ส่งออก JSON",
     "import": "นำเข้า JSON",

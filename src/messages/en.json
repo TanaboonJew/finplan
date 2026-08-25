@@ -435,6 +435,65 @@
       "bull": "Bull market"
     }
   },
+  "tax": {
+    "incomeLabel": "Annual gross income",
+    "filingStatus": "Filing status",
+    "filingOptions": {
+      "single": "Single",
+      "married": "Married filing jointly"
+    },
+    "toolbar": {
+      "country": "Country",
+      "seedConfirm": "Replace your current tax data with the demo set?",
+      "reset": "Reset",
+      "resetConfirm": "Clear all tax inputs?"
+    },
+    "stats": {
+      "grossIncome": "Gross income",
+      "totalDeductions": "Total deductions",
+      "taxableIncome": "Taxable income",
+      "totalTax": "Total tax",
+      "effectiveRate": "Effective rate: {rate}",
+      "marginalRate": "Marginal rate",
+      "takeHomePay": "Take-home pay",
+      "takeHomeMonthly": "{amount}/month"
+    },
+    "deductions": {
+      "title": "Deductions",
+      "thPersonal": "Personal allowance",
+      "thSocialSecurity": "Social security (Section 33)",
+      "thInsurance": "Insurance (life & health)",
+      "thRetirement": "Retirement fund (RMF/SSF)",
+      "thChild": "Child allowance",
+      "usStandardDeduction": "Standard deduction",
+      "customNameLabel": "Custom deduction name",
+      "customNamePlaceholder": "e.g. Mortgage interest",
+      "amountLabel": "Amount",
+      "addCustom": "Add deduction",
+      "removeCustom": "Remove deduction"
+    },
+    "bracket": {
+      "title": "Bracket breakdown",
+      "colRate": "Rate",
+      "colRange": "Income range",
+      "colTaxable": "Taxable amount",
+      "colTax": "Tax",
+      "rangeOpen": "{from} and above",
+      "rangeClosed": "{from} – {to}"
+    },
+    "chart": {
+      "title": "Take-home breakdown",
+      "description": "From gross income to net take-home pay.",
+      "empty": "Enter an income amount to see the breakdown.",
+      "barGross": "Gross income",
+      "barDeductions": "Deductions",
+      "barTax": "Income tax",
+      "barTakeHome": "Take-home"
+    },
+    "error": {
+      "importVersion": "That file was exported by a different version of the tax planner."
+    }
+  },
   "shared": {
     "export": "Export JSON",
     "import": "Import JSON",
