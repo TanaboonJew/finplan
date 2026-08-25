@@ -5,4 +5,5 @@ export * from "./amortization";
 export * from "./payoff";
 export * from "./tax";
 export * from "./npv-irr";
+export * from "./refinance";
 export * from "./format";
