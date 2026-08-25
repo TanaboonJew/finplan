@@ -96,9 +96,9 @@ Status legend: â¬œ todo Â· ðŸŸ¦ spec written Â· âœ… done
 | 8 | `/pay` | Subscriptions tracker | Monthly/annual subs, totals, renewal calendar | Price-increase history, cancel reminders (local) | âœ… |
 | 9 | `/dca` | DCA fee comparator | Fund/broker fee inputs, long-horizon cost compounding chart | Breakeven horizon calculation | âœ… |
 | 10 | `/flow` | Cash flow planner | Income/expense streams visualized monthly | What-if sliders with live recompute | âœ… |
-| 11 | `/credit-card` | Credit card compare | Cards CRUD, fee/rewards fields, spend-based ranking | Rewards value estimator per spend profile | â¬œ |
-| 12 | `/travel-card` | Travel card comparator | FX fees, rewards abroad, VAT refund calc | Trip cost simulator | â¬œ |
-| 13 | `/insurance` | Insurance manager | Policies list, coverage summary per member | Coverage-gap checklist | â¬œ |
+| 11 | `/credit-card` | Credit card compare | Cards CRUD, fee/rewards fields, spend-based ranking | Rewards value estimator per spend profile  ✅ |
+| 12 | `/travel-card` | Travel card comparator | FX fees, rewards abroad, VAT refund calc | Trip cost simulator  ✅ |
+| 13 | `/insurance` | Insurance manager | Policies list, coverage summary per member | Coverage-gap checklist  ✅ |
 | 14 | `/strategy` | Investment strategy board | Thesis/scenario/risk cards, kanban-ish layout | Export board as markdown | â¬œ |
 | 15 | `/kingdom` | Gamified budget kingdom | Category "buildings", growth animation to goal | Achievements stored locally | â¬œ |
 | 16 | `/wake-up` | Readiness quiz | 10-question scored checklist | Personalized action tips per answer | â¬œ |
