@@ -435,6 +435,84 @@
       "bull": "Bull market"
     }
   },
+  "loan": {
+    "title": "Loan explainer",
+    "subtitle": "See how principal and interest split apart over your loan's lifetime, and whether refinancing could save you money.",
+    "loading": "Loading your loan…",
+    "toolbar": {
+      "currency": "Currency",
+      "startMonth": "Loan starts",
+      "seedConfirm": "Replace your current loan with the demo?",
+      "reset": "Reset",
+      "resetConfirm": "Clear all loan data?"
+    },
+    "inputs": {
+      "titleLabel": "Your loan",
+      "nameLabel": "Loan name",
+      "namePlaceholder": "e.g. Home mortgage",
+      "principalLabel": "Loan amount",
+      "aprLabel": "Annual interest rate",
+      "termLabel": "Loan term",
+      "termHint": "months",
+      "validation": {
+        "nameRequired": "Give this loan a name.",
+        "principalPositive": "Loan amount must be greater than zero.",
+        "rateNonNegative": "Interest rate cannot be negative.",
+        "termPositive": "Term must be at least 1 month."
+      }
+    },
+    "stats": {
+      "monthlyPayment": "Monthly payment",
+      "totalInterest": "Total interest",
+      "totalCost": "Total cost",
+      "payoffDate": "Paid off by"
+    },
+    "splitChart": {
+      "title": "Principal vs interest per payment",
+      "description": "How each monthly payment divides over the life of the loan.",
+      "principal": "Principal",
+      "interest": "Interest",
+      "tooltipMonth": "Month {month}",
+      "empty": "Enter loan details to see the payment breakdown."
+    },
+    "cumulativeChart": {
+      "title": "Cumulative payments",
+      "description": "Running totals of principal paid and interest paid.",
+      "principalPaid": "Principal paid",
+      "interestPaid": "Interest paid",
+      "tooltipMonth": "Month {month}",
+      "crossover": "You pass the halfway mark around month {month}.",
+      "empty": "Enter loan details to see cumulative totals."
+    },
+    "table": {
+      "title": "Amortization schedule",
+      "subtitle": "Starting {date}",
+      "colMonth": "#",
+      "colPayment": "Payment",
+      "colPrincipal": "Principal",
+      "colInterest": "Interest",
+      "colBalance": "Balance"
+    },
+    "refinance": {
+      "title": "Refinance break-even",
+      "description": "See if refinancing would save you money and when the savings cover the closing costs.",
+      "newAprLabel": "New annual rate",
+      "newTermLabel": "New term",
+      "newTermHint": "months",
+      "closingCostLabel": "Closing cost",
+      "monthlySaving": "Monthly saving",
+      "breakEven": "Break-even",
+      "breakEvenSub": "months until refinancing pays for itself",
+      "breakEvenNever": "Refinancing does not save money at this rate.",
+      "totalSavings": "Total savings",
+      "totalSavingsSub": "Over the new loan term",
+      "negativeSaving": "This rate would cost you more — not recommended.",
+      "empty": "Enter loan details first, then open this section to compare."
+    },
+    "error": {
+      "importVersion": "That file was exported by a different version of the loan explainer."
+    }
+  },
   "shared": {
     "export": "Export JSON",
     "import": "Import JSON",
