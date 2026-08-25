@@ -954,6 +954,121 @@
       "rewardBreakdown": "Reward breakdown by category"
     }
   },
+  "insurance": {
+    "title": "Insurance manager",
+    "subtitle": "Track every policy, see coverage per family member, and spot gaps before they cost you.",
+    "loading": "Loading your insurance…",
+    "stats": {
+      "label": "Overview",
+      "totalPolicies": "Total policies",
+      "totalPoliciesSub": "{count, plural, one {# policy} other {# policies}}",
+      "annualPremiums": "Annual premiums",
+      "annualPremiumsSub": "Combined yearly cost",
+      "membersCount": "Family members",
+      "membersCountSub": "People covered",
+      "avgPerMember": "Avg. per member",
+      "avgPerMemberSub": "Policies per person"
+    },
+    "toolbar": {
+      "reset": "Clear all data",
+      "resetConfirm": "Delete all insurance data stored in this browser?",
+      "importInvalid": "This file is not a valid Insurance manager export."
+    },
+    "members": {
+      "title": "Family members",
+      "addMember": "Add member",
+      "nameLabel": "Name",
+      "namePlaceholder": "e.g. Alex",
+      "relationshipLabel": "Relationship",
+      "relationshipPlaceholder": "e.g. self, spouse, child",
+      "add": "Add member",
+      "edit": "Edit",
+      "save": "Save",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "deleteConfirm": "Remove \"{name}\" and unassign from all policies?",
+      "emptyTitle": "No family members yet",
+      "emptyBody": "Add your family members so you can assign policies and see coverage per person.",
+      "validation": {
+        "nameRequired": "Give this person a name."
+      }
+    },
+    "policies": {
+      "title": "Policies",
+      "addPolicy": "Add policy",
+      "nameLabel": "Policy name",
+      "namePlaceholder": "e.g. Term Life 30yr",
+      "typeLabel": "Type",
+      "types": {
+        "life": "Life",
+        "health": "Health",
+        "auto": "Auto",
+        "home": "Home",
+        "disability": "Disability",
+        "critical-illness": "Critical illness",
+        "accident": "Accident",
+        "travel": "Travel",
+        "other": "Other"
+      },
+      "providerLabel": "Provider",
+      "providerPlaceholder": "e.g. BlueShield",
+      "policyNumberLabel": "Policy #",
+      "policyNumberPlaceholder": "Optional",
+      "premiumLabel": "Premium",
+      "frequencyLabel": "Frequency",
+      "frequencies": {
+        "monthly": "Monthly",
+        "annual": "Annual",
+        "one-time": "One-time"
+      },
+      "sumInsuredLabel": "Sum insured",
+      "deductibleLabel": "Deductible",
+      "startDateLabel": "Start date",
+      "endDateLabel": "End date",
+      "endDatePlaceholder": "Open-ended",
+      "membersLabel": "Assigned to",
+      "membersHint": "Select family members covered by this policy",
+      "notesLabel": "Notes",
+      "notesPlaceholder": "Optional notes",
+      "add": "Add policy",
+      "edit": "Edit",
+      "save": "Save",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "deleteConfirm": "Delete \"{name}\"?",
+      "emptyTitle": "No policies yet",
+      "emptyBody": "Add your first insurance policy or load demo data to see coverage summaries and gap analysis.",
+      "validation": {
+        "nameRequired": "Give this policy a name.",
+        "premiumNonNegative": "Premium must be zero or more.",
+        "sumInsuredNonNegative": "Sum insured must be zero or more.",
+        "deductibleNonNegative": "Deductible must be zero or more."
+      }
+    },
+    "coverage": {
+      "title": "Coverage summary",
+      "subtitle": "Total sum insured and annual premiums per family member.",
+      "colMember": "Member",
+      "colRelationship": "Relationship",
+      "colPolicies": "Policies",
+      "colSumInsured": "Sum insured",
+      "colAnnualPremium": "Annual premium",
+      "totalRow": "Total",
+      "noPolicies": "Add policies to see coverage breakdown."
+    },
+    "gaps": {
+      "title": "Coverage-gap checklist",
+      "subtitle": "Recommended categories: life, health, and disability insurance.",
+      "covered": "Covered",
+      "missing": "No coverage",
+      "policyCount": "{count, plural, one {# policy} other {# policies}}",
+      "totalCoverage": "Total coverage: {amount}",
+      "recommendedBadge": "Recommended",
+      "allCovered": "All recommended categories are covered.",
+      "gapsFound": "{count} gap(s) found — review your coverage below.",
+      "empty": "Add policies to see the coverage-gap checklist."
+    }
+  },
   "shared": {
     "export": "Export JSON",
     "import": "Import JSON",

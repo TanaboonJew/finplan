@@ -954,11 +954,126 @@
       "rewardBreakdown": "รายละเอียดรางวัลแยกตามหมวดหมู่"
     }
   },
+  "insurance": {
+    "title": "ผู้จัดการกรมธรรม์",
+    "subtitle": "ติดตามทุกกรมธรรม์ ดูความคุ้มครองรายบุคคล และเจาะช่องว่างก่อนที่จะเสียค่าใช้จ่าย",
+    "loading": "กำลังโหลดข้อมูลประกัน…",
+    "stats": {
+      "label": "ภาพรวม",
+      "totalPolicies": "กรมธรรม์รวม",
+      "totalPoliciesSub": "{count} กรมธรรม์",
+      "annualPremiums": "เบี้ยประกันรายปี",
+      "annualPremiumsSub": "ค่าใช้จ่ายรวมต่อปี",
+      "membersCount": "สมาชิกในครอบครัว",
+      "membersCountSub": "บุคคลที่ได้รับความคุ้มครอง",
+      "avgPerMember": "เฉลี่ยต่อคน",
+      "avgPerMemberSub": "กรมธรรม์ต่อคน"
+    },
+    "toolbar": {
+      "reset": "ล้างข้อมูลทั้งหมด",
+      "resetConfirm": "ลบข้อมูลประกันทั้งหมดที่จัดเก็บในเบราว์เซอร์นี้?",
+      "importInvalid": "ไฟล์นี้ไม่ใช่ไฟล์ส่งออกของเครื่องมือจัดการกรมธรรม์ที่ถูกต้อง"
+    },
+    "members": {
+      "title": "สมาชิกในครอบครัว",
+      "addMember": "เพิ่มสมาชิก",
+      "nameLabel": "ชื่อ",
+      "namePlaceholder": "เช่น อาร์ม",
+      "relationshipLabel": "ความสัมพันธ์",
+      "relationshipPlaceholder": "เช่น ตนเอง, คู่สมรส, บุตร",
+      "add": "เพิ่มสมาชิก",
+      "edit": "แก้ไข",
+      "save": "บันทึก",
+      "cancel": "ยกเลิก",
+      "delete": "ลบ",
+      "deleteConfirm": "ลบ \"{name}\" และปลดจากกรมธรรม์ทั้งหมด?",
+      "emptyTitle": "ยังไม่มีสมาชิกในครอบครัว",
+      "emptyBody": "เพิ่มสมาชิกในครอบครัวเพื่อกำหนดกรมธรรม์และดูความคุ้มครองรายบุคคล",
+      "validation": {
+        "nameRequired": "ตั้งชื่อบุคคลนี้ก่อน"
+      }
+    },
+    "policies": {
+      "title": "กรมธรรม์",
+      "addPolicy": "เพิ่มกรมธรรม์",
+      "nameLabel": "ชื่อกรมธรรม์",
+      "namePlaceholder": "เช่น ประกันชีวิต 30 ปี",
+      "typeLabel": "ประเภท",
+      "types": {
+        "life": "ชีวิต",
+        "health": "สุขภาพ",
+        "auto": "รถยนต์",
+        "home": "บ้าน",
+        "disability": "ทุพพลภาพ",
+        "critical-illness": "โรคร้ายแรง",
+        "accident": "อุบัติเหตุ",
+        "travel": "เดินทาง",
+        "other": "อื่นๆ"
+      },
+      "providerLabel": "บริษัทประกัน",
+      "providerPlaceholder": "เช่น วิริยะ",
+      "policyNumberLabel": "เลขกรมธรรม์",
+      "policyNumberPlaceholder": "ไม่บังคับ",
+      "premiumLabel": "เบี้ยประกัน",
+      "frequencyLabel": "รอบการจ่าย",
+      "frequencies": {
+        "monthly": "รายเดือน",
+        "annual": "รายปี",
+        "one-time": "ครั้งเดียว"
+      },
+      "sumInsuredLabel": "ทุนประกัน",
+      "deductibleLabel": "ค่ารับผิดชอบส่วนแรก",
+      "startDateLabel": "วันเริ่มคุ้มครอง",
+      "endDateLabel": "วันสิ้นสุดคุ้มครอง",
+      "endDatePlaceholder": "ไม่มีกำหนด",
+      "membersLabel": "กำหนดให้",
+      "membersHint": "เลือกสมาชิกในครอบครัวที่ได้รับความคุ้มครองจากกรมธรรม์นี้",
+      "notesLabel": "บันทึก",
+      "notesPlaceholder": "บันทึกเพิ่มเติม (ไม่บังคับ)",
+      "add": "เพิ่มกรมธรรม์",
+      "edit": "แก้ไข",
+      "save": "บันทึก",
+      "cancel": "ยกเลิก",
+      "delete": "ลบ",
+      "deleteConfirm": "ลบ \"{name}\"?",
+      "emptyTitle": "ยังไม่มีกรมธรรม์",
+      "emptyBody": "เพิ่มกรมธรรม์ประกันแรกของคุณ หรือโหลดข้อมูลตัวอย่างเพื่อดูสรุปความคุ้มครองและวิเคราะห์ช่องว่าง",
+      "validation": {
+        "nameRequired": "ตั้งชื่อกรมธรรม์นี้ก่อน",
+        "premiumNonNegative": "เบี้ยประกันต้องเป็นจำนวนศูนย์หรือมากกว่า",
+        "sumInsuredNonNegative": "ทุนประกันต้องเป็นจำนวนศูนย์หรือมากกว่า",
+        "deductibleNonNegative": "ค่ารับผิดชอบส่วนแรกต้องเป็นจำนวนศูนย์หรือมากกว่า"
+      }
+    },
+    "coverage": {
+      "title": "สรุปความคุ้มครอง",
+      "subtitle": "ทุนประกันรวมและเบี้ยประกันรายปีแยกตามสมาชิกในครอบครัว",
+      "colMember": "สมาชิก",
+      "colRelationship": "ความสัมพันธ์",
+      "colPolicies": "กรมธรรม์",
+      "colSumInsured": "ทุนประกัน",
+      "colAnnualPremium": "เบี้ยรายปี",
+      "totalRow": "รวม",
+      "noPolicies": "เพิ่มกรมธรรม์เพื่อดูรายละเอียดความคุ้มครอง"
+    },
+    "gaps": {
+      "title": "เช็กลิสต์ช่องว่างความคุ้มครอง",
+      "subtitle": "ประเภทที่แนะนำ: ประกันชีวิต สุขภาพ และทุพพลภาพ",
+      "covered": "มีความคุ้มครอง",
+      "missing": "ยังไม่มี",
+      "policyCount": "{count} กรมธรรม์",
+      "totalCoverage": "ความคุ้มครองรวม: {amount}",
+      "recommendedBadge": "แนะนำ",
+      "allCovered": "ประเภทที่แนะนำทั้งหมดมีความคุ้มครองแล้ว",
+      "gapsFound": "พบ {count} ช่องว่าง — ตรวจสอบความคุ้มครองด้านล่าง",
+      "empty": "เพิ่มกรมธรรม์เพื่อดูเช็กลิสต์ช่องว่างความคุ้มครอง"
+    }
+  },
   "shared": {
     "export": "ส่งออก JSON",
     "import": "นำเข้า JSON",
-    "importError": "ไม่สามารถอ่านไฟล์นี้เป็นไฟล์ส่งออกของ FinPlan ที่ถูกต้องได้",
-    "seedDemo": "ใส่ข้อมูลตัวอย่าง",
-    "seedConfirm": "แทนที่ข้อมูลปัจจุบันของคุณด้วยข้อมูลตัวอย่าง?"
+    "importError": "ไม่สามารถอ่านไฟล์นี้เป็นไฟล์ส่งออก FinPlan ที่ถูกต้อง",
+    "seedDemo": "โหลดข้อมูลตัวอย่าง",
+    "seedConfirm": "แทนที่ข้อมูลปัจจุบันด้วยข้อมูลตัวอย่าง?"
   }
 }
