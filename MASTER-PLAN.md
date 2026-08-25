@@ -94,8 +94,8 @@ Status legend: ⬜ todo · 🟦 spec written · ✅ done
 | 6 | `/tax` | Tax planner | Bracket engine (configurable table), deductions, take-home breakdown | Multi-country bracket presets (TH/US) | ✅ |
 | 7 | `/timeline` | Life goals timeline | Goals (house/kids/retire) on one timeline, cash overlap view | Conflict detection between goals | ✅ |
 | 8 | `/pay` | Subscriptions tracker | Monthly/annual subs, totals, renewal calendar | Price-increase history, cancel reminders (local) | ✅ |
-| 9 | `/dca` | DCA fee comparator | Fund/broker fee inputs, long-horizon cost compounding chart | Breakeven horizon calculation | ⬜ |
-| 10 | `/flow` | Cash flow planner | Income/expense streams visualized monthly | What-if sliders with live recompute | ⬜ |
+| 9 | `/dca` | DCA fee comparator | Fund/broker fee inputs, long-horizon cost compounding chart | Breakeven horizon calculation | ✅ |
+| 10 | `/flow` | Cash flow planner | Income/expense streams visualized monthly | What-if sliders with live recompute | ✅ |
 | 11 | `/credit-card` | Credit card compare | Cards CRUD, fee/rewards fields, spend-based ranking | Rewards value estimator per spend profile | ⬜ |
 | 12 | `/travel-card` | Travel card comparator | FX fees, rewards abroad, VAT refund calc | Trip cost simulator | ⬜ |
 | 13 | `/insurance` | Insurance manager | Policies list, coverage summary per member | Coverage-gap checklist | ⬜ |
