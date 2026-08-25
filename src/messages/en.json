@@ -1275,6 +1275,141 @@
       }
     }
   },
+  "wake-up": {
+    "title": "Financial readiness quiz",
+    "subtitle": "Ten quick questions to see where you stand — with concrete next steps for every weak spot.",
+    "loading": "Loading quiz…",
+    "intro": {
+      "title": "Answer honestly — nothing leaves this device",
+      "description": "Score up to {max} points. You'll get your readiness level and action tips once all questions are answered."
+    },
+    "progress": {
+      "count": "{answered} / {total}"
+    },
+    "questions": {
+      "q1": {
+        "label": "Do you have an emergency fund?",
+        "options": {
+          "a": "Yes — six or more months of expenses",
+          "b": "Yes — three to six months",
+          "c": "Started one, but under three months",
+          "d": "No emergency fund yet"
+        },
+        "tip": "Build an emergency fund covering 3–6 months of essential expenses. It protects every other financial goal from surprise setbacks."
+      },
+      "q2": {
+        "label": "How do you plan your monthly spending?",
+        "options": {
+          "a": "Written budget that I follow each month",
+          "b": "A rough plan in my head",
+          "c": "Only when money gets tight",
+          "d": "I don't plan spending"
+        },
+        "tip": "Give every baht/dollar a job before the month starts. A simple written budget is the fastest way to find leaky spending."
+      },
+      "q3": {
+        "label": "Do you track where your money goes?",
+        "options": {
+          "a": "Yes — reviewed regularly",
+          "b": "Sometimes, when I remember",
+          "c": "Only big purchases",
+          "d": "No idea month to month"
+        },
+        "tip": "Track spending for one full month (an app or notebook both work). You can't optimize what you never measure."
+      },
+      "q4": {
+        "label": "How much of your income do you save?",
+        "options": {
+          "a": "20% or more, automatically",
+          "b": "10–20% most months",
+          "c": "Whatever is left over",
+          "d": "Nothing — income covers expenses"
+        },
+        "tip": "Pick a fixed savings rate you can sustain — even 5–10% — and raise it by 1% every few months. Pay yourself first."
+      },
+      "q5": {
+        "label": "How are you handling debt?",
+        "options": {
+          "a": "Aggressive payoff plan in motion",
+          "b": "Paying above minimums",
+          "c": "Minimum payments only",
+          "d": "Falling behind"
+        },
+        "tip": "List debts by balance and rate, then target extra payments at one debt (smallest balance or highest rate). Minimums keep you in debt longest."
+      },
+      "q6": {
+        "label": "Are you saving for retirement?",
+        "options": {
+          "a": "Yes — consistent contributions",
+          "b": "Started, but not consistent",
+          "c": "Planning to start soon",
+          "d": "Not yet"
+        },
+        "tip": "Start now even if the amount feels small — time in the market compounds. Increase contributions with every raise."
+      },
+      "q7": {
+        "label": "Do you know what your insurance covers?",
+        "options": {
+          "a": "Reviewed within the last year",
+          "b": "Know roughly",
+          "c": "Have some, never checked details",
+          "d": "No coverage review ever"
+        },
+        "tip": "Review health, life, and disability coverage annually. Gaps discovered after a claim are expensive lessons."
+      },
+      "q8": {
+        "label": "Do your goals have amounts and dates?",
+        "options": {
+          "a": "Yes — written with deadlines",
+          "b": "Rough targets only",
+          "c": "Vague wishes",
+          "d": "No goals set"
+        },
+        "tip": "Turn wishes into targets: give each goal an amount, a date, and a monthly contribution. Then track progress visibly."
+      },
+      "q9": {
+        "label": "Are savings and bills automated?",
+        "options": {
+          "a": "Yes — transfers happen on payday",
+          "b": "Some bills automated",
+          "c": "Everything manual",
+          "d": "Often miss due dates"
+        },
+        "tip": "Automate the important moves: savings on payday, bills on due dates. Willpower is a terrible long-term strategy."
+      },
+      "q10": {
+        "label": "When did you last check your credit health?",
+        "options": {
+          "a": "Within the last six months",
+          "b": "In the past year",
+          "c": "More than a year ago",
+          "d": "Never checked"
+        },
+        "tip": "Check your credit report and score at least yearly. Errors are common and fixing them early keeps borrowing cheap."
+      }
+    },
+    "results": {
+      "title": "Your results",
+      "scoreLabel": "Readiness score",
+      "levelLabel": "Level",
+      "levels": {
+        "getting-started": "Getting started",
+        "building": "Building",
+        "on-track": "On track",
+        "ready": "Ready"
+      },
+      "levelHint": "Based on your answers",
+      "tipsTitle": "Action tips for your weak spots",
+      "noTips": "Strong across the board — keep reviewing these areas yearly.",
+      "retake": "Retake the quiz",
+      "retakeConfirm": "Clear all answers and retake the quiz?"
+    },
+    "toolbar": {
+      "reset": "Reset",
+      "resetConfirm": "Clear all quiz answers stored in this browser?",
+      "importInvalid": "This file is not a valid readiness-quiz export."
+    }
+  },
   "shared": {
     "export": "Export JSON",
     "import": "Import JSON",
