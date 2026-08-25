@@ -724,6 +724,79 @@
       "importVersion": "That file was exported by a different version of the subscriptions tracker."
     }
   },
+  "dca": {
+    "subtitle": "See how fund fees compound against long-term investing and when the cheaper fund pulls ahead.",
+    "toolbar": {
+      "currency": "Currency",
+      "seedConfirm": "Replace your current funds with the demo set?",
+      "reset": "Reset",
+      "resetConfirm": "Clear all fund data?"
+    },
+    "params": {
+      "monthlyContribution": "Monthly investment",
+      "horizonYears": "Investment horizon",
+      "horizonHint": "years",
+      "validation": {
+        "contributionPositive": "Monthly investment must be greater than zero.",
+        "horizonRange": "Horizon must be between 1 and 50 years."
+      }
+    },
+    "funds": {
+      "title": "Fund options",
+      "addFund": "Add fund",
+      "removeFund": "Remove fund",
+      "deleteConfirm": "Remove \"{name}\" from comparison?",
+      "nameLabel": "Fund name",
+      "namePlaceholder": "e.g. Index fund",
+      "expenseRatioLabel": "Expense ratio",
+      "frontLoadLabel": "Front-end load",
+      "exitLoadLabel": "Exit load",
+      "annualReturnLabel": "Expected annual return",
+      "validation": {
+        "nameRequired": "Give this fund a name.",
+        "minFunds": "Compare at least two funds.",
+        "rateRange": "Rate must be between 0% and 100%.",
+        "returnRange": "Return must be between 0% and 50%."
+      },
+      "emptyTitle": "No funds yet",
+      "emptyBody": "Add at least two funds to compare, or load the demo data to see how fees compound over time."
+    },
+    "stats": {
+      "endingBalance": "Ending balance",
+      "endingBalanceSub": "After {months} months",
+      "totalInvested": "Total invested",
+      "totalFees": "Total fees paid",
+      "feeDrag": "Fee drag",
+      "feeDragSub": "of gross return lost to fees",
+      "bestPerformer": "Best performer",
+      "bestPerformerSub": "Higher ending balance"
+    },
+    "comparisonChart": {
+      "title": "Growth comparison",
+      "description": "Same investment, different fees — who comes out ahead?",
+      "grossLabel": "No fees (gross)",
+      "tooltipMonth": "Month {month}",
+      "empty": "Add at least two funds with valid returns to see the comparison."
+    },
+    "feeChart": {
+      "title": "Cumulative fees paid",
+      "description": "How much each fund has taken in fees over time.",
+      "tooltipMonth": "Month {month}",
+      "empty": "Add funds to see fee accumulation."
+    },
+    "breakeven": {
+      "title": "Breakeven horizon",
+      "description": "When does the cheaper fund overtake the higher-return fund?",
+      "monthLabel": "Breakeven at month {month}",
+      "yearLabel": "≈ {years} years",
+      "neverLabel": "Funds never cross within the investment horizon.",
+      "noComparison": "Need exactly two funds with different returns to calculate breakeven.",
+      "winnerLabel": "Lower fees win after the breakeven point."
+    },
+    "error": {
+      "importVersion": "That file was exported by a different version of the DCA fee comparator."
+    }
+  },
   "shared": {
     "export": "Export JSON",
     "import": "Import JSON",

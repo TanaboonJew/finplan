@@ -6,5 +6,6 @@ export * from "./payoff";
 export * from "./tax";
 export * from "./npv-irr";
 export * from "./refinance";
+export * from "./dca";
 export * from "./format";
 export * from "./timeline";
