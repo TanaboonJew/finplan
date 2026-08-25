@@ -1,7 +1,6 @@
 import {
   assertFiniteNumber,
   assertNonNegative,
-  assertNonNegativeInteger,
 } from "./validation";
 
 export interface TimelineGoal {
@@ -63,9 +62,10 @@ export function goalProjectedSavings(
       `annualReturnRate must be greater than -1, got ${goal.annualReturnRate}`
     );
   }
-  const months = toYears(currentAge, goal.endAge) * 12;
-  assertNonNegativeInteger(months, "months");
-  if (months === 0) return 0;
+  // Ages may be fractional (e.g. 34 + 11/12); snap to whole months so float
+  // artifacts like 1.0000000000000284 never leak into the schedule.
+  const months = Math.round(toYears(currentAge, goal.endAge) * 12);
+  if (months <= 0) return 0;
   const monthlyRate = goal.annualReturnRate / 12;
   if (monthlyRate === 0) return goal.monthlySavings * months;
   return (

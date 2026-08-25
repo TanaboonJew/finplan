@@ -78,4 +78,61 @@ describe("amortization", () => {
       buildAmortizationSchedule({ principal: 1000, annualRate: 0.1, termMonths: -1 })
     ).toThrow(RangeError);
   });
+
+  it("amortizes a zero-interest loan as pure principal splits", () => {
+    const rows = buildAmortizationSchedule({
+      principal: 12000,
+      annualRate: 0,
+      termMonths: 12,
+    });
+    expect(rows).toHaveLength(12);
+    for (const row of rows) {
+      expect(row.interest).toBe(0);
+      expect(row.principal).toBeCloseTo(1000, 8);
+      expect(row.payment).toBeCloseTo(row.principal + row.extraPrincipal, 8);
+    }
+    // Uneven principal divides with a final balancing payment.
+    const summary = summarizeSchedule(rows);
+    expect(summary.totalInterest).toBe(0);
+    expect(summary.totalPrincipal).toBeCloseTo(12000, 6);
+    expect(summary.totalPaid).toBeCloseTo(12000, 6);
+    const uneven = buildAmortizationSchedule({
+      principal: 100,
+      annualRate: 0,
+      termMonths: 3,
+    });
+    expect(uneven[uneven.length - 1].balance).toBe(0);
+    expect(summarizeSchedule(uneven).totalPaid).toBeCloseTo(100, 8);
+  });
+
+  it("keeps every payment split additive (principal + interest + extra)", () => {
+    const rows = buildAmortizationSchedule({
+      principal: 50000,
+      annualRate: 0.0725,
+      termMonths: 84,
+      extraMonthlyPayment: 150,
+    });
+    let balance = 50000;
+    for (const row of rows) {
+      expect(row.payment).toBeCloseTo(
+        row.principal + row.extraPrincipal + row.interest,
+        8
+      );
+      balance -= row.principal + row.extraPrincipal;
+      expect(row.balance).toBeCloseTo(Math.max(0, balance), 6);
+    }
+  });
+
+  it("throws when the payment can never cover the interest", () => {
+    // Negative amortization guard: tiny term forces a huge rate? Instead use
+    // a schedule where interest exceeds payment via an absurd rate on a long
+    // term is impossible here; construct directly: 100% monthly-ish rate.
+    expect(() =>
+      buildAmortizationSchedule({
+        principal: 100000,
+        annualRate: 24, // 200% monthly
+        termMonths: 360,
+      })
+    ).toThrow(RangeError);
+  });
 });

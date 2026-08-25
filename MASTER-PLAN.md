@@ -15,7 +15,7 @@ A hub site (`/`) listing ~17 self-contained finance planning tools. Each tool ru
 
 1. **No copying** of the original site's branding, text, or assets. Feature parity only.
 2. **English-first UI.** All strings go through the i18n layer (`en` default, `th` added later). No hardcoded strings in components.
-3. **Local-only persistence.** Zustand + `persist` middleware (localStorage) for settings/small state; Dexie (IndexedDB) only where data gets big (statement imports).
+3. **Local-only persistence.** Zustand + `persist` (localStorage) for every tool, including statement imports (kept compact by design). IndexedDB/Dexie stays a deferred option if imports ever outgrow localStorage â€” see docs/storage-conventions.md.
 4. **Finance math lives in `src/lib/finance`** as pure functions with Vitest unit tests. Components never do raw money math inline.
 5. **Every tool ships complete**: responsive, dark mode, i18n keys, persistence, demo-data seed button, JSON export/import, empty states.
 6. TypeScript strict mode. No `any`. Lint + typecheck + tests pass before marking a phase done.
@@ -29,7 +29,7 @@ A hub site (`/`) listing ~17 self-contained finance planning tools. Each tool ru
 | Language | TypeScript (strict) |
 | Styling | Tailwind CSS v4 + shadcn/ui components |
 | State | Zustand (+ persist) |
-| Big local data | Dexie (IndexedDB) |
+| Big local data | localStorage via Zustand persist (Dexie deferred — see docs/storage-conventions.md) |
 | Charts | Recharts |
 | i18n | next-intl (`en`, `th`) |
 | Tests | Vitest (+ @testing-library/react where useful) |
@@ -64,11 +64,11 @@ finplan/
     â”‚   â”‚   â”œâ”€â”€ rates.ts      APRâ†”monthlyâ†”effective conversions
     â”‚   â”‚   â”œâ”€â”€ npv-irr.ts
     â”‚   â”‚   â””â”€â”€ format.ts     currency/percent formatting
-    â”‚   â”œâ”€â”€ storage/          â† zustand stores per tool + dexie db
+    â”‚   â”œâ”€â”€ storage/          â† zustand stores per tool
     â”‚   â””â”€â”€ demo/             â† seed data generators per tool
-    â””â”€â”€ i18n/
-        â”œâ”€â”€ en.json
-        â””â”€â”€ th.json           (added when Thai phase starts)
+    â””â”€â”€ messages/
+        â”œâ”€â”€ en.json           â† default locale (src/i18n holds routing/request)
+        â””â”€â”€ th.json
 ```
 
 ## 5. Design system (Phase 0)

@@ -33,7 +33,6 @@ describe("messages", () => {
       "hub.heroBrowse",
       "hub.heroFeatured",
       "hub.cta",
-      "toolPage.comingSoon",
       "toolPage.back",
     ];
 

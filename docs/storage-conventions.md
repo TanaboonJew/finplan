@@ -63,15 +63,18 @@ Rules:
 6. **Reset path**: every store exposes `reset()`; the demo seeder overwrites
    through the store's setters so persistence picks it up automatically.
 
-## Big data: Dexie (IndexedDB)
+## Big data: keep it small instead
 
-Only where data gets big (statement imports, transaction history):
+The original plan reserved Dexie (IndexedDB) for large imports. In practice
+every tool — including the statement parser — stores comfortably in
+localStorage through Zustand + persist, and no `db.ts` exists today.
 
-- One database: name `finplan`, declared once in `src/lib/storage/db.ts`.
-- One table per domain, schema versioned with Dexie's `.stores()` upgrades.
-- Rows carry an `id` (UUID string via `crypto.randomUUID()`) and `updatedAt`.
-- Dexie tables never feed React state directly; tools read through hooks that
-  keep the Zustand layer as source of truth for small selections.
+- If a future import grows past a few thousand rows, add Dexie then: one
+  database named `finplan`, declared once in `src/lib/storage/db.ts`.
+- Until that need is real, do **not** introduce a second persistence layer.
+  Trimming oversized CSVs before parse is preferable to new infrastructure.
+- Rows in any future IndexedDB table must carry an `id`
+  (`crypto.randomUUID()`) and `updatedAt`.
 
 ## JSON export / import envelope
 
