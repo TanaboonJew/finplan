@@ -1,4 +1,4 @@
-﻿# FinPlan Toolkit â€” Master Plan
+# FinPlan Toolkit â€” Master Plan
 
 > Working name: **FinPlan** (rename freely). A local-first personal finance toolkit hub.
 > Feature-inspired by plantung.mymoneytoolkit.app â€” **do NOT copy its name, logo, images, Thai copy, or any proprietary assets.** Original design, original content, English-first.
