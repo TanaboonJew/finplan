@@ -877,6 +877,68 @@
       "importVersion": "ไฟล์นี้ถูกส่งออกจากเวอร์ชันอื่นของตัววางแผนกระแสเงินสด"
     }
   },
+  "travel-card": {
+    "toolbar": {
+      "seedConfirm": "แทนที่บัตรปัจจุบันของคุณด้วยชุดข้อมูลตัวอย่าง?",
+      "reset": "รีเซ็ต",
+      "resetConfirm": "ล้างข้อมูลบัตรและการเดินทางทั้งหมด?"
+    },
+    "cards": {
+      "title": "บัตรของคุณ",
+      "addCard": "เพิ่มบัตร",
+      "removeCard": "ลบบัตร",
+      "deleteConfirm": "ลบ \"{name}\" ออกจากการเปรียบเทียบ?",
+      "nameLabel": "ชื่อบัตร",
+      "namePlaceholder": "เช่น บัตร Wise",
+      "annualFeeLabel": "ค่าธรรมเนียมรายปี",
+      "atmFeeLabel": "ค่าธรรมเนียม ATM",
+      "fxFeeLabel": "ค่า FX",
+      "fxMarkupLabel": "ส่วนต่าง FX",
+      "rewardForeignLabel": "รางวัลต่างประเทศ",
+      "rewardDomesticLabel": "รางวัลในประเทศ",
+      "cardLabel": "บัตร",
+      "validation": {
+        "nameRequired": "กรุณาตั้งชื่อบัตร"
+      },
+      "emptyTitle": "ยังไม่มีบัตร",
+      "emptyBody": "เพิ่มบัตรอย่างน้อยหนึ่งใบเพื่อเปรียบเทียบ หรือโหลดข้อมูลตัวอย่างเพื่อดูว่าค่า FX และรางวัลส่งผลต่อค่าเดินทางอย่างไร"
+    },
+    "trip": {
+      "title": "รายละเอียดการเดินทาง",
+      "foreignSpend": "ค่าใช้จ่ายต่างประเทศ",
+      "daysAbroad": "จำนวนวันที่อยู่ต่างประเทศ",
+      "destCurrency": "สกุลเงินปลายทาง",
+      "vatPreset": "ประเทศ VAT",
+      "vatRate": "อัตรา VAT",
+      "vatMinSpend": "ยอดขั้นต่ำสำหรับคืน VAT",
+      "enableVatRefund": "เปิดการคำนวณคืน VAT",
+      "validation": {
+        "spendPositive": "ค่าใช้จ่ายต่างประเทศต้องมากกว่า 0",
+        "daysPositive": "จำนวนวันต้องอย่างน้อย 1"
+      }
+    },
+    "results": {
+      "bestCard": "บัตรที่ดีที่สุดสำหรับทริปนี้",
+      "best": "ดีที่สุด",
+      "savingsVsWorst": "ประหยัด {amount} เทียบกับบัตรที่แพงที่สุด",
+      "netTripCost": "ค่าเดินทางสุทธิ",
+      "fxCost": "ค่า FX",
+      "rewards": "รางวัล + VAT",
+      "annualFee": "ค่าธรรมเนียมรายปี (ตามสัดส่วน)"
+    },
+    "chart": {
+      "title": "ส่วนประกอบค่าเดินทาง",
+      "description": "ค่า FX รางวัล และค่าธรรมเนียมรายปีแยกตามบัตร",
+      "fxFee": "ค่า FX",
+      "fxMarkup": "ส่วนต่าง FX",
+      "reward": "รางวัลต่างประเทศ",
+      "vatRefund": "คืน VAT",
+      "annualFee": "ค่าธรรมเนียมรายปี"
+    },
+    "error": {
+      "importVersion": "ไฟล์นี้ถูกส่งออกจากเวอร์ชันอื่นของเครื่องมือเปรียบเทียบบัตรเดินทาง"
+    }
+  },
   "shared": {
     "export": "ส่งออก JSON",
     "import": "นำเข้า JSON",
