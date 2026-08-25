@@ -1131,6 +1131,83 @@
       "empty": "Add policies to see the coverage-gap checklist."
     }
   },
+  "kingdom": {
+    "title": "Budget Kingdom",
+    "subtitle": "Turn savings goals into buildings and watch your kingdom grow.",
+    "loading": "Loading your kingdom…",
+    "kingdomNameLabel": "Kingdom name",
+    "stats": {
+      "label": "Kingdom stats",
+      "totalWealthLabel": "Total wealth",
+      "ofTarget": "of target",
+      "buildingsLabel": "Buildings",
+      "completed": "complete",
+      "achievementsLabel": "Achievements"
+    },
+    "toolbar": {
+      "reset": "Clear all data",
+      "resetConfirm": "Delete all kingdom data stored in this browser?",
+      "importInvalid": "This file is not a valid Budget Kingdom export."
+    },
+    "buildings": {
+      "addTitle": "Add a building",
+      "nameLabel": "Building name",
+      "namePlaceholder": "e.g. Emergency Fund",
+      "targetLabel": "Savings goal",
+      "iconLabel": "Icon",
+      "colorLabel": "Color",
+      "addButton": "Add building",
+      "emptyTitle": "No buildings yet",
+      "emptyMessage": "Add your first building below, or load the demo data to see a sample kingdom.",
+      "iconNames": {
+        "castle": "Castle",
+        "house": "House",
+        "tower": "Tower",
+        "hut": "Hut",
+        "temple": "Temple",
+        "bridge": "Bridge"
+      },
+      "colorNames": {
+        "emerald": "Emerald",
+        "blue": "Blue",
+        "amber": "Amber",
+        "rose": "Rose",
+        "violet": "Violet",
+        "cyan": "Cyan"
+      },
+      "tiers": {
+        "foundation": "Foundation",
+        "base": "Base",
+        "walls": "Walls",
+        "roof": "Roof",
+        "furnished": "Furnished",
+        "complete": "Complete"
+      }
+    },
+    "deposits": {
+      "add": "Deposit",
+      "remaining": "remaining",
+      "amountLabel": "Amount",
+      "dateLabel": "Date",
+      "notePlaceholder": "Note (optional)",
+      "confirm": "Deposit",
+      "cancel": "Cancel",
+      "remove": "Remove deposit"
+    },
+    "achievements": {
+      "title": "Achievements",
+      "names": {
+        "first_deposit": "First Deposit",
+        "first_building": "Builder",
+        "half_funded": "Halfway There",
+        "first_complete": "First Completion",
+        "five_buildings": "City Planner",
+        "thousand_club": "Thousand Club",
+        "five_achievements": "Achiever",
+        "kingdom_complete": "Kingdom Complete"
+      }
+    }
+  },
   "shared": {
     "export": "Export JSON",
     "import": "Import JSON",

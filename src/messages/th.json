@@ -1131,6 +1131,83 @@
       "empty": "เพิ่มกรมธรรม์เพื่อดูเช็กลิสต์ช่องว่างความคุ้มครอง"
     }
   },
+  "kingdom": {
+    "title": "อาณาจักรงบประมาณ",
+    "subtitle": "เปลี่ยนเป้าหมายการออมให้เป็นอาคาร แล้วดูอาณาจักรของคุณเติบโต",
+    "loading": "กำลังโหลดอาณาจักรของคุณ…",
+    "kingdomNameLabel": "ชื่ออาณาจักร",
+    "stats": {
+      "label": "สถิติอาณาจักร",
+      "totalWealthLabel": "เงินออมรวม",
+      "ofTarget": "จากเป้าหมาย",
+      "buildingsLabel": "อาคาร",
+      "completed": "แล้วเสร็จ",
+      "achievementsLabel": "ความสำเร็จ"
+    },
+    "toolbar": {
+      "reset": "ล้างข้อมูลทั้งหมด",
+      "resetConfirm": "ลบข้อมูลอาณาจักรทั้งหมดที่เก็บไว้ในเบราว์เซอร์นี้?",
+      "importInvalid": "ไฟล์นี้ไม่ใช่ไฟล์ส่งออกอาณาจักรงบประมาณที่ถูกต้อง"
+    },
+    "buildings": {
+      "addTitle": "เพิ่มอาคาร",
+      "nameLabel": "ชื่ออาคาร",
+      "namePlaceholder": "เช่น เงินสำรองฉุกเฉิน",
+      "targetLabel": "เป้าหมายการออม",
+      "iconLabel": "ไอคอน",
+      "colorLabel": "สี",
+      "addButton": "เพิ่มอาคาร",
+      "emptyTitle": "ยังไม่มีอาคาร",
+      "emptyMessage": "เพิ่มอาคารแรกของคุณด้านล่าง หรือโหลดข้อมูลตัวอย่างเพื่อดูอาณาจักรตัวอย่าง",
+      "iconNames": {
+        "castle": "ปราสาท",
+        "house": "บ้าน",
+        "tower": "หอคอย",
+        "hut": "กระท่อม",
+        "temple": "วัด",
+        "bridge": "สะพาน"
+      },
+      "colorNames": {
+        "emerald": "เขียวมรกต",
+        "blue": "น้ำเงิน",
+        "amber": "เหลืองอำพัน",
+        "rose": "ชมพู",
+        "violet": "ม่วง",
+        "cyan": "ฟ้า"
+      },
+      "tiers": {
+        "foundation": "ฐานราก",
+        "base": "โครงฐาน",
+        "walls": "ผนัง",
+        "roof": "หลังคา",
+        "furnished": "ตกแต่งภายใน",
+        "complete": "แล้วเสร็จ"
+      }
+    },
+    "deposits": {
+      "add": "ฝากเงิน",
+      "remaining": "ที่เหลือ",
+      "amountLabel": "จำนวน",
+      "dateLabel": "วันที่",
+      "notePlaceholder": "บันทึก (ไม่บังคับ)",
+      "confirm": "ฝากเงิน",
+      "cancel": "ยกเลิก",
+      "remove": "ลบรายการฝาก"
+    },
+    "achievements": {
+      "title": "ความสำเร็จ",
+      "names": {
+        "first_deposit": "ฝากครั้งแรก",
+        "first_building": "นักสร้าง",
+        "half_funded": "ครึ่งทางแล้ว",
+        "first_complete": "สร้างเสร็จครั้งแรก",
+        "five_buildings": "นายกเทศมนตรี",
+        "thousand_club": "สโมสรพัน",
+        "five_achievements": "ผู้พิชิต",
+        "kingdom_complete": "อาณาจักรสมบูรณ์"
+      }
+    }
+  },
   "shared": {
     "export": "ส่งออก JSON",
     "import": "นำเข้า JSON",
