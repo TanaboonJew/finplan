@@ -1410,6 +1410,65 @@
       "importInvalid": "This file is not a valid readiness-quiz export."
     }
   },
+  "portfolio-analyzer": {
+    "title": "Portfolio analyzer",
+    "subtitle": "Paste your holdings, see the real allocation, concentration warnings, and drift from your target mix.",
+    "loading": "Loading portfolio…",
+    "stats": {
+      "label": "Portfolio stats",
+      "totalValue": "Total value",
+      "positions": "{count, plural, one {# position} other {# positions}}",
+      "classes": "Asset classes",
+      "largestDrift": "Largest drift vs target"
+    },
+    "paste": {
+      "title": "Paste holdings CSV",
+      "description": "Columns: symbol, quantity, price — optionally name and assetClass. A header row is detected automatically.",
+      "parseButton": "Parse CSV",
+      "noRows": "No holding rows found.",
+      "parsedOk": "Added {count, plural, one {# holding} other {# holdings}}.",
+      "invalid": "Could not parse this CSV."
+    },
+    "donut": {
+      "title": "Allocation by asset class",
+      "emptyTitle": "No holdings yet",
+      "emptyMessage": "Paste a CSV above or add holdings by hand to see your allocation."
+    },
+    "warnings": {
+      "title": "Concentration warnings",
+      "positionOver": "{symbol} makes up {percent} of your portfolio (over the 20% single-position guideline).",
+      "classOver": "{assetClass} makes up {percent} of your portfolio (over the 60% single-class guideline)."
+    },
+    "drift": {
+      "title": "Drift vs target mix",
+      "class": "Asset class",
+      "actual": "Actual",
+      "target": "Target",
+      "delta": "Delta"
+    },
+    "holdings": {
+      "title": "Holdings",
+      "empty": "No holdings yet — paste a CSV above or add one below.",
+      "symbol": "Symbol",
+      "assetClass": "Asset class",
+      "classPlaceholder": "Equity",
+      "quantity": "Quantity",
+      "price": "Price",
+      "value": "Value",
+      "remove": "Remove",
+      "add": "Add holding"
+    },
+    "targets": {
+      "title": "Target mix",
+      "description": "Set your benchmark weights per asset class to measure drift."
+    },
+    "toolbar": {
+      "reset": "Reset",
+      "resetConfirm": "Delete all portfolio data stored in this browser?",
+      "importInvalid": "This file is not a valid portfolio export."
+    },
+    "disclaimer": "Prices are entered manually — values reflect what you type, not live markets."
+  },
   "shared": {
     "export": "Export JSON",
     "import": "Import JSON",

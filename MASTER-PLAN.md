@@ -102,7 +102,7 @@ Status legend: â¬œ todo Â· ðŸŸ¦ spec written Â· âœ… done
 | 14 | `/strategy` | Investment strategy board | Thesis/scenario/risk cards, kanban-ish layout | Export board as markdown  ✅ |
 | 15 | `/kingdom` | Gamified budget kingdom | Category "buildings", growth animation to goal | Achievements stored locally  ✅ |
 | 16 | `/wake-up` | Readiness quiz | 10-question scored checklist | Personalized action tips per answer | âœ… |
-| 17 | `/portfolio-analyzer` | Portfolio dashboard | Paste CSV/table â†’ allocation donut, concentration warnings | Benchmark drift indicator | â¬œ |
+| 17 | `/portfolio-analyzer` | Portfolio dashboard | Paste CSV/table â†’ allocation donut, concentration warnings | Benchmark drift indicator | âœ… |
 | 18 | `/statement` | Statement parser | PDF/CSV import (start CSV-only), categorize transactions | Rules engine for auto-categorization | â¬œ |
 
 Fun extras (`moodeng`, `kilocash`, `pipe-cleaner`) are **out of scope**.
