@@ -91,7 +91,7 @@ Status legend: ⬜ todo · 🟦 spec written · ✅ done
 | 3 | `/retirement` | Retirement planner | Age/income/savings inputs, growth projection chart, FIRE number | Monte Carlo-lite (inflation scenarios) | ✅ |
 | 4 | `/jar` | Six Jars manager | 6 jars w/ % split, income distribution, balance tracking | Custom jars, transfer history log | ✅ |
 | 5 | `/loan` | Loan explainer | Amortization viz, principal-vs-interest split over time | Refinance break-even calculator | ⬜ |
-| 6 | `/tax` | Tax planner | Bracket engine (configurable table), deductions, take-home breakdown | Multi-country bracket presets (TH/US) | ⬜ |
+| 6 | `/tax` | Tax planner | Bracket engine (configurable table), deductions, take-home breakdown | Multi-country bracket presets (TH/US) | ✅ |
 | 7 | `/timeline` | Life goals timeline | Goals (house/kids/retire) on one timeline, cash overlap view | Conflict detection between goals | ⬜ |
 | 8 | `/pay` | Subscriptions tracker | Monthly/annual subs, totals, renewal calendar | Price-increase history, cancel reminders (local) | ⬜ |
 | 9 | `/dca` | DCA fee comparator | Fund/broker fee inputs, long-horizon cost compounding chart | Breakeven horizon calculation | ⬜ |
