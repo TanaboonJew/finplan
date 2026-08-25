@@ -724,6 +724,86 @@
       "importVersion": "That file was exported by a different version of the subscriptions tracker."
     }
   },
+  "flow": {
+    "title": "Cash flow planner",
+    "subtitle": "Map your income and expenses, then stress-test changes with what-if sliders.",
+    "loading": "Loading your cash flow…",
+    "toolbar": {
+      "horizon": "Months to project",
+      "seedConfirm": "Replace your current cash flow data with the demo set?",
+      "reset": "Reset",
+      "resetConfirm": "Clear all cash flow data?",
+      "resetWhatIf": "Reset what-if"
+    },
+    "stats": {
+      "totalIncome": "Monthly income",
+      "totalIncomeSub": "From {count, plural, one {# stream} other {# streams}}",
+      "totalExpense": "Monthly expenses",
+      "totalExpenseSub": "Across {count, plural, one {# stream} other {# streams}}",
+      "netFlow": "Net cash flow",
+      "netFlowSub": "Per month on average",
+      "endingBalance": "Ending balance",
+      "endingBalanceSub": "After {months} months",
+      "runway": "Months of runway",
+      "runwaySub": "At current burn rate",
+      "runwayPositive": "Savings growing"
+    },
+    "editor": {
+      "incomeTitle": "Income streams",
+      "expenseTitle": "Expense streams",
+      "addIncome": "Add income stream",
+      "addExpense": "Add expense stream",
+      "nameLabel": "Name",
+      "namePlaceholder": "e.g. Salary",
+      "amountLabel": "Amount",
+      "startLabel": "Starts",
+      "endLabel": "Ends",
+      "endPlaceholder": "Open-ended",
+      "delete": "Delete",
+      "deleteConfirm": "Delete \"{name}\"?",
+      "emptyIncome": "No income streams yet",
+      "emptyIncomeBody": "Add your income sources to see your cash flow.",
+      "emptyExpense": "No expense streams yet",
+      "emptyExpenseBody": "Add your expenses to see where your money goes.",
+      "validation": {
+        "nameRequired": "Give this stream a name.",
+        "amountNonNegative": "Amount must be zero or more.",
+        "startRequired": "Start month is required.",
+        "endBeforeStart": "End month must be after start month."
+      }
+    },
+    "whatIf": {
+      "title": "What-if sliders",
+      "description": "Adjust each stream to see how changes affect your cash flow.",
+      "scaleLabel": "Scale",
+      "originalLabel": "Original",
+      "scaledLabel": "Scaled"
+    },
+    "monthlyChart": {
+      "title": "Monthly cash flow",
+      "description": "Income vs expenses over time",
+      "income": "Income",
+      "expense": "Expenses",
+      "empty": "Add streams to see your monthly cash flow."
+    },
+    "balanceChart": {
+      "title": "Cumulative balance",
+      "description": "How your balance changes month by month",
+      "balance": "Balance",
+      "empty": "Add streams to see your projected balance."
+    },
+    "table": {
+      "title": "Monthly detail",
+      "colMonth": "Month",
+      "colIncome": "Income",
+      "colExpense": "Expenses",
+      "colNet": "Net",
+      "colBalance": "Balance"
+    },
+    "error": {
+      "importVersion": "That file was exported by a different version of the cash flow planner."
+    }
+  },
   "shared": {
     "export": "Export JSON",
     "import": "Import JSON",
