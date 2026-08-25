@@ -7,3 +7,4 @@ export * from "./tax";
 export * from "./npv-irr";
 export * from "./refinance";
 export * from "./format";
+export * from "./timeline";

@@ -572,6 +572,94 @@
       "importVersion": "That file was exported by a different version of the loan explainer."
     }
   },
+  "timeline": {
+    "subtitle": "See whether your life goals fit your savings plan — and when they clash.",
+    "loading": "Loading your timeline…",
+    "toolbar": {
+      "currency": "Currency",
+      "seedConfirm": "Replace your current timeline with the demo?",
+      "reset": "Reset",
+      "resetConfirm": "Clear all goals and settings?"
+    },
+    "profile": {
+      "title": "Your profile",
+      "currentAge": "Current age",
+      "monthlyBudget": "Monthly savings budget",
+      "annualReturn": "Default expected return",
+      "inflation": "Default expected inflation",
+      "errors": {
+        "ageRange": "Age must be between 0 and 120."
+      }
+    },
+    "stats": {
+      "goalsLabel": "Goals",
+      "budgetDemandLabel": "Monthly demand vs budget",
+      "utilizationLabel": "Budget utilization",
+      "shortfallLabel": "Goals with shortfall",
+      "shortfallSub": "{count} of {total} goals underfunded",
+      "noShortfall": "All goals on track",
+      "noGoals": "Add your first life goal"
+    },
+    "goals": {
+      "title": "Your goals",
+      "emptyTitle": "No goals yet",
+      "emptyMessage": "Add your first life goal — a house, kids, retirement — or load demo data to see an example timeline.",
+      "add": "Add goal",
+      "edit": "Edit",
+      "save": "Save",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "deleteConfirm": "Delete \"{name}\"?",
+      "remove": "Remove goal",
+      "nameLabel": "Goal name",
+      "namePlaceholder": "e.g. House deposit",
+      "categoryLabel": "Category",
+      "startAgeLabel": "Start age",
+      "endAgeLabel": "End age",
+      "totalCostLabel": "Total cost (today's money)",
+      "monthlySavingsLabel": "Monthly savings toward goal",
+      "returnLabel": "Expected return",
+      "inflationLabel": "Expected inflation",
+      "categories": {
+        "house": "House",
+        "kids": "Kids",
+        "retirement": "Retirement",
+        "education": "Education",
+        "custom": "Custom"
+      },
+      "shortfallBadge": "Shortfall",
+      "surplusBadge": "Surplus",
+      "projectedSub": "Projected: {projected} vs cost: {cost}",
+      "ageRange": "{start} – {end}",
+      "demandRow": "Demand"
+    },
+    "conflicts": {
+      "title": "Goal conflicts",
+      "description": "These goals compete for the same savings during overlapping periods.",
+      "none": "No conflicts detected",
+      "between": "{a} vs {b}",
+      "overlapPeriod": "Overlap: age {start} – {end}",
+      "demandOverBudget": "{demand}/mo demand vs {budget}/mo budget",
+      "gapAmount": "{amount}/mo over budget"
+    },
+    "gantt": {
+      "title": "Goals timeline",
+      "description": "Each bar shows when a goal is active. Colored regions indicate overlaps.",
+      "empty": "Add goals to see the timeline."
+    },
+    "cashflow": {
+      "title": "Cash flow",
+      "description": "Monthly budget, demand, and net balance over time.",
+      "budgetLine": "Budget",
+      "demandLine": "Demand",
+      "balanceLine": "Net balance",
+      "tooltipAge": "Age {age}",
+      "empty": "Add goals to see the cash flow chart."
+    },
+    "error": {
+      "importVersion": "That file was exported by a different version of the timeline tool."
+    }
+  },
   "shared": {
     "export": "Export JSON",
     "import": "Import JSON",
