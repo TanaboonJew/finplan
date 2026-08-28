@@ -15,6 +15,23 @@ describe("compound", () => {
     expect(futureValue(1000, 0.01, 0)).toBe(1000);
   });
 
+  it("supports negative growth above a total periodic loss", () => {
+    expect(futureValue(1000, -0.1, 2)).toBeCloseTo(810, 10);
+
+    const input = {
+      initialBalance: 1200,
+      monthlyContribution: 0,
+      annualRate: -0.12,
+      months: 12,
+    };
+    const schedule = growthSchedule(input);
+    expect(schedule[12].balance).toBeCloseTo(projectBalance(input), 8);
+    expect(schedule[12].balance).toBeGreaterThan(0);
+    expect(schedule[12].balance).toBeLessThan(1200);
+
+    expect(() => futureValue(1000, -1, 1)).toThrow(RangeError);
+  });
+
   it("discounts a future amount back to present value", () => {
     expect(presentValue(16288.95, 0.05, 10)).toBeCloseTo(10000, 0);
   });
@@ -64,8 +81,13 @@ describe("compound", () => {
     expect(() => futureValue(-1, 0.05, 10)).toThrow(RangeError);
     expect(() => futureValue(100, 0.05, -3)).toThrow(RangeError);
     expect(() => futureValueOfAnnuity(100, 0.05, 2.5)).toThrow(RangeError);
-    expect(() => growthSchedule({ ...{ initialBalance: 0, monthlyContribution: 0, annualRate: 0.1, months: 1.5 } })).toThrow(
-      RangeError
-    );
+    expect(() =>
+      growthSchedule({
+        initialBalance: 0,
+        monthlyContribution: 0,
+        annualRate: 0.1,
+        months: 1.5,
+      })
+    ).toThrow(RangeError);
   });
 });

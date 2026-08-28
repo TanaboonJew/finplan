@@ -1,3 +1,5 @@
+import { existsSync } from "node:fs";
+import { join } from "node:path";
 import { describe, expect, it } from "vitest";
 import { TOOLS, TOOL_CATEGORIES } from "@/lib/tools";
 
@@ -14,6 +16,23 @@ describe("tool registry", () => {
   it("points every card at its own route", () => {
     for (const tool of TOOLS) {
       expect(tool.href).toBe(`/${tool.slug}`);
+    }
+  });
+
+  it("keeps a route and spec for every registered tool", () => {
+    for (const tool of TOOLS) {
+      const route = join(
+        process.cwd(),
+        "src",
+        "app",
+        "[locale]",
+        "(tools)",
+        tool.slug,
+        "page.tsx"
+      );
+      const spec = join(process.cwd(), "docs", "specs", `${tool.slug}.md`);
+      expect(existsSync(route), `missing route for ${tool.slug}`).toBe(true);
+      expect(existsSync(spec), `missing spec for ${tool.slug}`).toBe(true);
     }
   });
 

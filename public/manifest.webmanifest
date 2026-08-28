@@ -1,0 +1,21 @@
+{
+  "name": "FinPlan — Personal Finance Toolkit",
+  "short_name": "FinPlan",
+  "description": "A local-first planning and educational personal-finance toolkit.",
+  "id": "/finplan/",
+  "start_url": "/finplan/en/",
+  "scope": "/finplan/",
+  "display": "standalone",
+  "background_color": "#fafafa",
+  "theme_color": "#059669",
+  "lang": "en",
+  "categories": ["finance", "productivity"],
+  "icons": [
+    {
+      "src": "/finplan/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
